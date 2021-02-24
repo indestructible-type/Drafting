@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotlessi" format="2">
+  <advance width="1200"/>
+  <unicode hex="0131"/>
+  <anchor x="597" y="0" name="Anchor-2"/>
+  <anchor x="596" y="920" name="Anchor-0"/>
+  <outline>
+    <contour>
+      <point x="200" y="0" type="line"/>
+      <point x="200" y="130" type="line"/>
+      <point x="560" y="130" type="line"/>
+      <point x="560" y="780" type="line"/>
+      <point x="260" y="780" type="line"/>
+      <point x="260" y="920" type="line"/>
+      <point x="739" y="920" type="line"/>
+      <point x="739" y="130" type="line"/>
+      <point x="1100" y="130" type="line"/>
+      <point x="1100" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>130</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>780</integer>
+            <key>width</key>
+            <integer>140</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>560</integer>
+            <key>width</key>
+            <integer>179</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

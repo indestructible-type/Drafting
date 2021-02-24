@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<designspace format="4.1">
+
+  <axes>
+    <axis tag="wght" name="Weight" minimum="400" maximum="700" default="400">
+      <map input="400" output="400"/>
+      <map input="500" output="470"/>
+      <map input="600" output="550"/>
+      <map input="700" output="650"/>
+    </axis>
+  </axes>
+
+  <sources>
+
+    <source filename="../UFO/Drafting-Regular.ufo" name="Drafting Mono Regular" familyname="Drafting Mono" stylename="regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+    </source>
+
+    <source filename="../UFO/Drafting-Bold.ufo" name="Drafting Mono Bold" familyname="Drafting Mono" stylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="650"/>
+      </location>
+    </source>
+
+  </sources>
+
+  <instances>
+
+    <instance name="Drafting Mono Regular" familyname="Drafting Mono" stylename="Regular" filename="../instance_ufo/DraftingMono-Regular.ufo" stylemapfamilyname="Drafting Mono" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+    </instance>
+
+    <instance name="Drafting Mono Medium" familyname="Drafting Mono" stylename="Medium" filename="../instance_ufo/DraftingMono-Medium.ufo" stylemapfamilyname="Drafting Mono Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="470"/>
+      </location>
+    </instance>
+
+    <instance name="Drafting Mono SemiBold" familyname="Drafting Mono" stylename="SemiBold" filename="../instance_ufo/DraftingMono-SemiBold.ufo" stylemapfamilyname="Drafting Mono SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="550"/>
+      </location>
+    </instance>
+
+    <instance name="Drafting Mono Bold" familyname="Drafting Mono" stylename="Bold" filename="../instance_ufo/DraftingMono-Bold.ufo" stylemapfamilyname="Drafting Mono" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="650"/>
+      </location>
+    </instance>
+
+  </instances>
+
+</designspace>

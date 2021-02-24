@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Y" format="2">
+  <advance width="1200"/>
+  <unicode hex="0059"/>
+  <anchor x="748" y="1300" name="Anchor-0"/>
+  <anchor x="519" y="0" name="Anchor-2"/>
+  <outline>
+    <contour>
+      <point x="190" y="0" type="line"/>
+      <point x="231" y="230" type="line"/>
+      <point x="421" y="230" type="line"/>
+      <point x="465" y="480" type="line"/>
+      <point x="273" y="1070" type="line"/>
+      <point x="139" y="1070" type="line"/>
+      <point x="179" y="1300" type="line"/>
+      <point x="687" y="1300" type="line"/>
+      <point x="647" y="1070" type="line"/>
+      <point x="528" y="1070" type="line"/>
+      <point x="647" y="610" type="line"/>
+      <point x="598" y="610" type="line"/>
+      <point x="890" y="1070" type="line"/>
+      <point x="789" y="1070" type="line"/>
+      <point x="829" y="1300" type="line"/>
+      <point x="1319" y="1300" type="line"/>
+      <point x="1279" y="1070" type="line"/>
+      <point x="1145" y="1070" type="line"/>
+      <point x="734" y="480" type="line"/>
+      <point x="690" y="230" type="line"/>
+      <point x="880" y="230" type="line"/>
+      <point x="839" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

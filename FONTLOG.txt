@@ -1,0 +1,20 @@
+FONTLOG for Drafting* Mono
+==========================
+
+This file includes information about the Drafting* Mono typeface by indestructible type*.
+
+
+About
+-----
+
+Drafting Mono
+
+
+Changelog
+---------
+=1.0 February 2021=
+First Release
+
+Contact
+-------
+If you have questions, email me at owen@indestructibletype.com

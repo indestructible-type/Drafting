@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<designspace format="4.1">
+
+  <axes>
+    <axis tag="wght" name="Weight" minimum="400" maximum="700" default="400">
+      <map input="400" output="400"/>
+      <map input="500" output="470"/>
+      <map input="600" output="550"/>
+      <map input="700" output="650"/>
+    </axis>
+  </axes>
+
+  <sources>
+
+    <source filename="../UFO/Drafting-Italic.ufo" name="Drafting Mono Italic" familyname="Drafting Mono" stylename="italic">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+    </source>
+
+    <source filename="../UFO/Drafting-BoldItalic.ufo" name="Drafting Mono Bold Italic" familyname="Drafting Mono" stylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="650"/>
+      </location>
+    </source>
+
+  </sources>
+
+  <instances>
+
+    <instance name="Drafting Mono Italic" familyname="Drafting Mono" stylename="Italic" filename="../instance_ufo/DraftingMono-Italic.ufo" stylemapfamilyname="Drafting Mono" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+    </instance>
+
+    <instance name="Drafting Mono Medium Italic" familyname="Drafting Mono" stylename="Medium Italic" filename="../instance_ufo/DraftingMono-MediumItalic.ufo" stylemapfamilyname="Drafting Mono Medium" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="470"/>
+      </location>
+    </instance>
+
+    <instance name="Drafting Mono SemiBold Italic" familyname="Drafting Mono" stylename="SemiBold Italic" filename="../instance_ufo/DraftingMono-SemiBoldItalic.ufo" stylemapfamilyname="Drafting Mono SemiBold" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="550"/>
+      </location>
+    </instance>
+
+    <instance name="Drafting Mono Bold Italic" familyname="Drafting Mono" stylename="Bold Italic" filename="../instance_ufo/DraftingMono-BoldItalic.ufo" stylemapfamilyname="Drafting Mono" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Weight" xvalue="650"/>
+      </location>
+    </instance>
+
+  </instances>
+
+</designspace>

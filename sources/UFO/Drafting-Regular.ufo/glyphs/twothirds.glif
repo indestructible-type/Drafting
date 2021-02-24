@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="twothirds" format="2">
+  <advance width="1200"/>
+  <unicode hex="2154"/>
+  <outline>
+    <contour>
+      <point x="99" y="680" type="line"/>
+      <point x="1101" y="680" type="line"/>
+      <point x="1101" y="570" type="line"/>
+      <point x="99" y="570" type="line"/>
+    </contour>
+    <component base="uni2072" yOffset="296"/>
+    <component base="uni2073" yOffset="-1009"/>
+  </outline>
+</glyph>

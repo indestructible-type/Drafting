@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="greaterequal" format="2">
+  <advance width="1200"/>
+  <unicode hex="2265"/>
+  <outline>
+    <contour>
+      <point x="229" y="130" type="line"/>
+      <point x="971" y="130" type="line"/>
+      <point x="971" y="0" type="line"/>
+      <point x="229" y="0" type="line"/>
+    </contour>
+    <component base="greater"/>
+  </outline>
+</glyph>
