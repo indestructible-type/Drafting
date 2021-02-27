@@ -7,8 +7,9 @@ This file includes information about the Drafting* Mono typeface by indestructib
 About
 -----
 
-Drafting Mono
+Monospaced fonts are often used during the production stage of projects. They are used by programmers while coding, and film crews while filming. They resemble the rhythm of typewriters, which are monospaced due to technical limitations, and permeate our predigital visual landscape.
 
+Drafting* Mono aims to capture this "still-in-the-works" spirit, with something neutral and timeless that is also personal and anachronistic. A seemingly self-contradictory desire, it takes heavy inspiration from typewriters, aiming to capture the spirit and logic of typewritten alphabets, rather then mimic the appearance literally. [Read more about it here!](https://indestructibletype.com/Drafting/)
 
 Changelog
 ---------
