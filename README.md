@@ -1,5 +1,5 @@
-[Drafting*](http://indestructibletype.com/Drafting.html)
-===========
+[Drafting* Mono](http://indestructibletype.com/Drafting.html)
+================
 ![Drafting* Picture](https://indestructibletype.com/assets/Drafting.svg)
 Drafting* Mono is an original monospaced font by indestructible type*
 
