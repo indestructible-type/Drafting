@@ -1,3 +1,4 @@
+fontforge
 fontbakery
 fontmake
 gftools
