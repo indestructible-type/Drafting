@@ -7,6 +7,23 @@ fontName_it="Drafting-Italic"
 
 ##########################################
 
+echo ".
+GENERATING SOURCES
+."
+SOURCE_DIR=fontforge
+UFO_DIR=UFO
+rm -rf $UFO_DIR
+mkdir -p $UFO_DIR
+sfds=$(ls $SOURCE_DIR/*.sfd)
+for source in $sfds
+do
+	base=${source##*/}
+#	sfd2ufo $source $UFO_DIR/${base%.*}.ufo
+	fontforge -c "fontforge.open('$source').generate('$UFO_DIR/${base%.*}.ufo')"
+done
+
+##########################################
+
 if [ -f "../fonts/ttf/DraftingMono-Regular.ttf" ]; then
 	TT_DIR=../fonts/ttf
 	echo ".
@@ -53,6 +70,7 @@ done
 ##########################################
 
 rm -rf instance_ufo/ master_ufo/ instance_ttf/
+rm -rf $UFO_DIR
 
 echo ".
 COMPLETE!

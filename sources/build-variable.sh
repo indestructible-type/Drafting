@@ -9,6 +9,23 @@ axes="wght"
 ##########################################
 
 echo ".
+GENERATING SOURCES
+."
+SOURCE_DIR=fontforge
+UFO_DIR=UFO
+rm -rf $UFO_DIR
+mkdir -p $UFO_DIR
+sfds=$(ls $SOURCE_DIR/*.sfd)
+for source in $sfds
+do
+	base=${source##*/}
+#	sfd2ufo $source $UFO_DIR/${base%.*}.ufo
+	fontforge -c "fontforge.open('$source').generate('$UFO_DIR/${base%.*}.ufo')"
+done
+
+##########################################
+
+echo ".
 GENERATING VARIABLE
 ."
 VF_DIR=../fonts/variable
@@ -34,6 +51,8 @@ done
 rm $VF_DIR/*gasp*
 
 ##########################################
+
+rm -rf $UFO_DIR
 
 echo ".
 COMPLETE!
