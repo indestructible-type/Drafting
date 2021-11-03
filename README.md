@@ -3,7 +3,7 @@
 ![Drafting* Picture](https://indestructibletype.com/assets/Drafting.svg)
 Drafting* Mono is an original monospaced font by indestructible type*
 
-it is inspired by typewriters. This is version 1.0
+it is inspired by typewriters. This is version 1.1
 
 Drafting* Mono is designed and maintained by [Owen Earl](https://ewonrael.github.io/), who is the creator of the font foundry [indestructible type*](http://indestructibletype.com).
 
@@ -16,7 +16,9 @@ Drafting* Mono aims to capture this "still-in-the-works" spirit, with something 
 Changelog
 ---------
 <b>1.0</b>
-initial release
+initial release<br>
+<b>1.1</b>
+added small caps & light weights
 
 Building
 --------
