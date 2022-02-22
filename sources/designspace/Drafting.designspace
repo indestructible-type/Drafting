@@ -14,7 +14,7 @@
 
   <sources>
 
-    <source filename="../UFO/Drafting-Regular.ufo" name="Drafting Mono Regular" familyname="Drafting Mono" stylename="regular">
+    <source filename="../UFO/Drafting-Regular.ufo" name="Drafting* Mono Regular" familyname="Drafting* Mono" stylename="regular">
       <lib copy="1"/>
       <groups copy="1"/>
       <features copy="1"/>
@@ -24,13 +24,13 @@
       </location>
     </source>
 
-    <source filename="../UFO/Drafting-Bold.ufo" name="Drafting Mono Bold" familyname="Drafting Mono" stylename="bold">
+    <source filename="../UFO/Drafting-Bold.ufo" name="Drafting* Mono Bold" familyname="Drafting* Mono" stylename="bold">
       <location>
         <dimension name="Weight" xvalue="650"/>
       </location>
     </source>
 
-    <source filename="../UFO/Drafting-Thin.ufo" name="Drafting Mono Thin" familyname="Drafting Mono" stylename="regular">
+    <source filename="../UFO/Drafting-Thin.ufo" name="Drafting* Mono Thin" familyname="Drafting* Mono" stylename="regular">
       <location>
         <dimension name="Weight" xvalue="100"/>
       </location>
@@ -40,43 +40,43 @@
 
   <instances>
 
-    <instance name="Drafting Mono Thin" familyname="Drafting Mono" stylename="Thin" filename="../instance_ufo/DraftingMono-Thin.ufo" stylemapfamilyname="Drafting Mono Thin" stylemapstylename="regular">
+    <instance name="Drafting* Mono Thin" familyname="Drafting* Mono" stylename="Thin" filename="../instance_ufo/DraftingMono-Thin.ufo" stylemapfamilyname="Drafting* Mono Thin" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="100"/>
       </location>
     </instance>
 
-    <instance name="Drafting Mono ExtraLight" familyname="Drafting Mono" stylename="ExtraLight" filename="../instance_ufo/DraftingMono-ExtraLight.ufo" stylemapfamilyname="Drafting Mono ExtraLight" stylemapstylename="regular">
+    <instance name="Drafting* Mono ExtraLight" familyname="Drafting* Mono" stylename="ExtraLight" filename="../instance_ufo/DraftingMono-ExtraLight.ufo" stylemapfamilyname="Drafting* Mono ExtraLight" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="230"/>
       </location>
     </instance>
 
-    <instance name="Drafting Mono Light" familyname="Drafting Mono" stylename="Light" filename="../instance_ufo/DraftingMono-Light.ufo" stylemapfamilyname="Drafting Mono Light" stylemapstylename="regular">
+    <instance name="Drafting* Mono Light" familyname="Drafting* Mono" stylename="Light" filename="../instance_ufo/DraftingMono-Light.ufo" stylemapfamilyname="Drafting* Mono Light" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="315"/>
       </location>
     </instance>
 
-    <instance name="Drafting Mono Regular" familyname="Drafting Mono" stylename="Regular" filename="../instance_ufo/DraftingMono-Regular.ufo" stylemapfamilyname="Drafting Mono" stylemapstylename="regular">
+    <instance name="Drafting* Mono Regular" familyname="Drafting* Mono" stylename="Regular" filename="../instance_ufo/DraftingMono-Regular.ufo" stylemapfamilyname="Drafting* Mono" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="400"/>
       </location>
     </instance>
 
-    <instance name="Drafting Mono Medium" familyname="Drafting Mono" stylename="Medium" filename="../instance_ufo/DraftingMono-Medium.ufo" stylemapfamilyname="Drafting Mono Medium" stylemapstylename="regular">
+    <instance name="Drafting* Mono Medium" familyname="Drafting* Mono" stylename="Medium" filename="../instance_ufo/DraftingMono-Medium.ufo" stylemapfamilyname="Drafting* Mono Medium" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="470"/>
       </location>
     </instance>
 
-    <instance name="Drafting Mono SemiBold" familyname="Drafting Mono" stylename="SemiBold" filename="../instance_ufo/DraftingMono-SemiBold.ufo" stylemapfamilyname="Drafting Mono SemiBold" stylemapstylename="regular">
+    <instance name="Drafting* Mono SemiBold" familyname="Drafting* Mono" stylename="SemiBold" filename="../instance_ufo/DraftingMono-SemiBold.ufo" stylemapfamilyname="Drafting* Mono SemiBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="550"/>
       </location>
     </instance>
 
-    <instance name="Drafting Mono Bold" familyname="Drafting Mono" stylename="Bold" filename="../instance_ufo/DraftingMono-Bold.ufo" stylemapfamilyname="Drafting Mono" stylemapstylename="bold">
+    <instance name="Drafting* Mono Bold" familyname="Drafting* Mono" stylename="Bold" filename="../instance_ufo/DraftingMono-Bold.ufo" stylemapfamilyname="Drafting* Mono" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="650"/>
       </location>
