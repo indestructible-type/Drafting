@@ -14,7 +14,7 @@
 
   <sources>
 
-    <source filename="../UFO/Drafting-Italic.ufo" name="Drafting* Mono Italic" familyname="Drafting* Mono" stylename="italic">
+    <source filename="../ufo/Drafting-Italic.ufo" name="Drafting* Mono Italic" familyname="Drafting* Mono" stylename="italic">
       <lib copy="1"/>
       <groups copy="1"/>
       <features copy="1"/>
@@ -24,13 +24,13 @@
       </location>
     </source>
 
-    <source filename="../UFO/Drafting-BoldItalic.ufo" name="Drafting* Mono Bold Italic" familyname="Drafting* Mono" stylename="bold italic">
+    <source filename="../ufo/Drafting-BoldItalic.ufo" name="Drafting* Mono Bold Italic" familyname="Drafting* Mono" stylename="bold italic">
       <location>
         <dimension name="Weight" xvalue="650"/>
       </location>
     </source>
 
-    <source filename="../UFO/Drafting-ThinItalic.ufo" name="Drafting* Mono Thin Italic" familyname="Drafting* Mono Thin" stylename="italic">
+    <source filename="../ufo/Drafting-ThinItalic.ufo" name="Drafting* Mono Thin Italic" familyname="Drafting* Mono Thin" stylename="italic">
       <location>
         <dimension name="Weight" xvalue="100"/>
       </location>

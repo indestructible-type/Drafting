@@ -8,19 +8,37 @@ fontName_it="Drafting-Italic"
 ##########################################
 
 echo ".
+CHECKING FOR SOURCE FILES
+."
+if [ -e ufo ]
+then
+    echo ".
+USING UFO SOURCE FILES
+."
+    UFO_SOURCES=true
+else
+    UFO_SOURCES=false
+fi
+
+##########################################
+
+if [ $UFO_SOURCES = false ]
+	then
+	echo ".
 GENERATING SOURCES
 ."
-SOURCE_DIR=fontforge
-UFO_DIR=UFO
-rm -rf $UFO_DIR
-mkdir -p $UFO_DIR
-sfds=$(ls $SOURCE_DIR/*.sfd)
-for source in $sfds
-do
-	base=${source##*/}
-#	sfd2ufo $source $UFO_DIR/${base%.*}.ufo
-	fontforge -c "fontforge.open('$source').generate('$UFO_DIR/${base%.*}.ufo')"
-done
+	SOURCE_DIR=fontforge
+	UFO_DIR=ufo
+	rm -rf $UFO_DIR
+	mkdir -p $UFO_DIR
+	sfds=$(ls $SOURCE_DIR/*.sfd)
+	for source in $sfds
+	do
+		base=${source##*/}
+	#	sfd2ufo $source $UFO_DIR/${base%.*}.ufo
+		fontforge -c "fontforge.open('$source').generate('$UFO_DIR/${base%.*}.ufo')"
+	done
+fi
 
 ##########################################
 
@@ -70,7 +88,12 @@ done
 ##########################################
 
 rm -rf instance_ufo/ master_ufo/ instance_ttf/
-rm -rf $UFO_DIR
+
+if [ $UFO_SOURCES = false ]
+then
+	rm -rf $UFO_DIR
+	find . | grep -E "(__pycache__|\.pyc|\.pyo$)" | xargs rm -rf
+fi
 
 echo ".
 COMPLETE!
