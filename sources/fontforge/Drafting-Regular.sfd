@@ -22,25 +22,25 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1587664909
-ModificationTime: 1635932949
+ModificationTime: 1647275549
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 180
 VLineGap: 0
-OS2TypoAscent: 0
-OS2TypoAOffset: 1
-OS2TypoDescent: 0
-OS2TypoDOffset: 1
+OS2TypoAscent: 1600
+OS2TypoAOffset: 0
+OS2TypoDescent: -400
+OS2TypoDOffset: 0
 OS2TypoLinegap: 180
-OS2WinAscent: 0
-OS2WinAOffset: 1
-OS2WinDescent: 0
-OS2WinDOffset: 1
-HheadAscent: 0
-HheadAOffset: 1
-HheadDescent: 0
-HheadDOffset: 1
+OS2WinAscent: 1835
+OS2WinAOffset: 0
+OS2WinDescent: 625
+OS2WinDOffset: 0
+HheadAscent: 1835
+HheadAOffset: 0
+HheadDescent: -625
+HheadDOffset: 0
 OS2Vendor: 'it* '
 Lookup: 1 0 0 "'ss02' Style Set 2 lookup 6" { "'ss02' Style Set 2 lookup 6-1"  } ['ss02' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'smcp' Lowercase to Small Capitals in Latin lookup 0" { "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable"  } ['smcp' ('latn' <'dflt' > ) ]
