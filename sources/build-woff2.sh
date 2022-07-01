@@ -33,11 +33,12 @@ GENERATING SOURCES
 	mkdir -p $UFO_DIR
 	sfds=$(ls $SOURCE_DIR/*.sfd)
 	for source in $sfds
-	do
+	    do
 		base=${source##*/}
-	#	sfd2ufo $source $UFO_DIR/${base%.*}.ufo
-		fontforge -c "fontforge.open('$source').generate('$UFO_DIR/${base%.*}.ufo')"
-	done
+		# fontforge -c "fontforge.open('$source').generate('$UFO_DIR/${base%.*}.ufo')"
+		python3 misc/sfd2ufo --ufo-kerning $source $UFO_DIR/${base%.*}.ufo
+		cp misc/features.fea $UFO_DIR/${base%.*}.ufo/features.fea
+	    done
 fi
 
 ##########################################

@@ -14,7 +14,7 @@
 
   <sources>
 
-    <source filename="../ufo/Drafting-Italic.ufo" name="Drafting* Mono Italic" familyname="Drafting* Mono" stylename="italic">
+    <source filename="../ufo/Drafting-Italic.ufo" name="Drafting Mono Italic" familyname="Drafting Mono" stylename="italic">
       <lib copy="1"/>
       <groups copy="1"/>
       <features copy="1"/>
@@ -24,13 +24,13 @@
       </location>
     </source>
 
-    <source filename="../ufo/Drafting-BoldItalic.ufo" name="Drafting* Mono Bold Italic" familyname="Drafting* Mono" stylename="bold italic">
+    <source filename="../ufo/Drafting-BoldItalic.ufo" name="Drafting Mono Bold Italic" familyname="Drafting Mono" stylename="bold italic">
       <location>
         <dimension name="Weight" xvalue="650"/>
       </location>
     </source>
 
-    <source filename="../ufo/Drafting-ThinItalic.ufo" name="Drafting* Mono Thin Italic" familyname="Drafting* Mono Thin" stylename="italic">
+    <source filename="../ufo/Drafting-ThinItalic.ufo" name="Drafting Mono Thin Italic" familyname="Drafting Mono Thin" stylename="italic">
       <location>
         <dimension name="Weight" xvalue="100"/>
       </location>
@@ -40,43 +40,43 @@
 
   <instances>
 
-    <instance name="Drafting* Mono Thin Italic" familyname="Drafting* Mono" stylename="Thin Italic" filename="../instance_ufo/DraftingMono-ThinItalic.ufo" stylemapfamilyname="Drafting* Mono Thin" stylemapstylename="italic">
+    <instance name="Drafting Mono Thin Italic" familyname="Drafting Mono" stylename="Thin Italic" filename="../instance_ufo/DraftingMono-ThinItalic.ufo" stylemapfamilyname="Drafting Mono Thin" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="100"/>
       </location>
     </instance>
 
-    <instance name="Drafting* Mono ExtraLight Italic" familyname="Drafting* Mono" stylename="ExtraLight Italic" filename="../instance_ufo/DraftingMono-ExtraLightItalic.ufo" stylemapfamilyname="Drafting* Mono ExtraLight" stylemapstylename="italic">
+    <instance name="Drafting Mono ExtraLight Italic" familyname="Drafting Mono" stylename="ExtraLight Italic" filename="../instance_ufo/DraftingMono-ExtraLightItalic.ufo" stylemapfamilyname="Drafting Mono ExtraLight" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="230"/>
       </location>
     </instance>
 
-    <instance name="Drafting* Mono Light Italic" familyname="Drafting* Mono" stylename="Light Italic" filename="../instance_ufo/DraftingMono-LightItalic.ufo" stylemapfamilyname="Drafting* Mono Light" stylemapstylename="italic">
+    <instance name="Drafting Mono Light Italic" familyname="Drafting Mono" stylename="Light Italic" filename="../instance_ufo/DraftingMono-LightItalic.ufo" stylemapfamilyname="Drafting Mono Light" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="315"/>
       </location>
     </instance>
 
-    <instance name="Drafting* Mono Italic" familyname="Drafting* Mono" stylename="Italic" filename="../instance_ufo/DraftingMono-Italic.ufo" stylemapfamilyname="Drafting* Mono" stylemapstylename="italic">
+    <instance name="Drafting Mono Italic" familyname="Drafting Mono" stylename="Italic" filename="../instance_ufo/DraftingMono-Italic.ufo" stylemapfamilyname="Drafting Mono" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="400"/>
       </location>
     </instance>
 
-    <instance name="Drafting* Mono Medium Italic" familyname="Drafting* Mono" stylename="Medium Italic" filename="../instance_ufo/DraftingMono-MediumItalic.ufo" stylemapfamilyname="Drafting* Mono Medium" stylemapstylename="italic">
+    <instance name="Drafting Mono Medium Italic" familyname="Drafting Mono" stylename="Medium Italic" filename="../instance_ufo/DraftingMono-MediumItalic.ufo" stylemapfamilyname="Drafting Mono Medium" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="470"/>
       </location>
     </instance>
 
-    <instance name="Drafting* Mono SemiBold Italic" familyname="Drafting* Mono" stylename="SemiBold Italic" filename="../instance_ufo/DraftingMono-SemiBoldItalic.ufo" stylemapfamilyname="Drafting* Mono SemiBold" stylemapstylename="italic">
+    <instance name="Drafting Mono SemiBold Italic" familyname="Drafting Mono" stylename="SemiBold Italic" filename="../instance_ufo/DraftingMono-SemiBoldItalic.ufo" stylemapfamilyname="Drafting Mono SemiBold" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="550"/>
       </location>
     </instance>
 
-    <instance name="Drafting* Mono Bold Italic" familyname="Drafting* Mono" stylename="Bold Italic" filename="../instance_ufo/DraftingMono-BoldItalic.ufo" stylemapfamilyname="Drafting* Mono" stylemapstylename="bold italic">
+    <instance name="Drafting Mono Bold Italic" familyname="Drafting Mono" stylename="Bold Italic" filename="../instance_ufo/DraftingMono-BoldItalic.ufo" stylemapfamilyname="Drafting Mono" stylemapstylename="bold italic">
       <location>
         <dimension name="Weight" xvalue="650"/>
       </location>
