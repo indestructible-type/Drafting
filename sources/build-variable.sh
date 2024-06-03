@@ -62,7 +62,6 @@ POST-PROCESSING VF
 vfs=$(ls $VF_DIR/*.ttf)
 for font in $vfs
 do
-	gftools fix-dsig --autofix $font
 	gftools fix-nonhinting $font $font.fix
 	mv $font.fix $font
 	gftools fix-unwanted-tables --tables MVAR $font
