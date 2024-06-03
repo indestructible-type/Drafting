@@ -381,7 +381,7 @@ feature calt {
 	\Utilde \utilde \Umacron \umacron \Ubreve \ubreve \Uring \uring \Uhungarumlaut 
 	\uhungarumlaut \Uogonek \uogonek \Wcircumflex \wcircumflex \Ycircumflex 
 	\ycircumflex \Ydieresis \Zacute \zacute \Zdotaccent \zdotaccent \Zcaron \zcaron 
-	\longs \florin \uni0212 \uni0213 \uni0218 \uni0219 \uni021A \uni021B \uni03BC 
+	\longs \florin \uni0212 \uni0213 \uni0218 \uni0219 \uni021A \uni021B \uni02BC \uni03BC 
 	\uni0394 \uni03A9 \pi \Wgrave \wgrave \Wacute \wacute \Wdieresis \wdieresis 
 	\uni1E86 \uni1E87 \uni1E88 \uni1E89 \uni1E9E \Ygrave \ygrave \Euro \trademark 
 	\uni2150 \uni2151 \uni2152 \onethird \uni2155 \uni2159 \oneeighth \twothirds 
@@ -408,7 +408,7 @@ feature calt {
 	\uhungarumlaut.sc \uogonek.sc \wcircumflex.sc \ycircumflex.sc \ydieresis.sc 
 	\zacute.sc \zdotaccent.sc \zcaron.sc \uni0213.sc \uni0219.sc \uni021B.sc 
 	\zero.alt \one.alt \germandbls.sc ];
-@GDEF_Mark = [\dotbelowcomb \uni02BC \gravecomb \acutecomb \tildecomb \uni0302 
+@GDEF_Mark = [\dotbelowcomb \gravecomb \acutecomb \tildecomb \uni0302 
 	\uni0304 \uni0306 \uni0307 \uni0308 \uni030A \uni030B \uni0326 \uni0328 \uni0327 
 	\uni030C \uni0311 ];
 
