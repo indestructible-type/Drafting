@@ -61,7 +61,6 @@ POST-PROCESSING OTF
 otfs=$(ls $TT_DIR/*.otf)
 for font in $otfs
 do
-	gftools fix-dsig --autofix $font
 	gftools fix-hinting $font
 	[ -f $font.fix ] && mv $font.fix $font
 done
