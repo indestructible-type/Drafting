@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uogonek.sc" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="u.sc"/>
+    <component base="ogonekcomb" xOffset="1275.11" yOffset="33.0"/>
+  </outline>
+</glyph>

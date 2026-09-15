@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ae.sc" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="81.0" y="1020.0" type="line"/>
+      <point x="380.0" y="1020.0" type="line"/>
+      <point x="480.0" y="840.0" type="line"/>
+      <point x="81.0" y="790.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="239.0" y="-20.0" type="line"/>
+      <point x="-33.0" y="-20.0" type="line"/>
+      <point x="380.0" y="1020.0" type="line"/>
+      <point x="680.0" y="1020.0" type="line"/>
+      <point x="570.0" y="950.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="219.0" y="550.0" type="line"/>
+      <point x="732.0" y="550.0" type="line"/>
+      <point x="732.0" y="370.0" type="line"/>
+      <point x="219.0" y="370.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1011.0" y="650.0" type="line"/>
+      <point x="1011.0" y="415.0" type="line"/>
+      <point x="809.0" y="445.0" type="line"/>
+      <point x="809.0" y="230.0" type="line"/>
+      <point x="948.0" y="230.0" type="line"/>
+      <point x="981.0" y="370.0" type="line"/>
+      <point x="1140.0" y="370.0" type="line"/>
+      <point x="1140.0" y="0.0" type="line"/>
+      <point x="400.0" y="0.0" type="line"/>
+      <point x="400.0" y="230.0" type="line"/>
+      <point x="540.0" y="230.0" type="line"/>
+      <point x="540.0" y="1020.0" type="line"/>
+      <point x="1130.0" y="1020.0" type="line"/>
+      <point x="1140.0" y="700.0" type="line"/>
+      <point x="941.0" y="700.0" type="line"/>
+      <point x="901.0" y="790.0" type="line"/>
+      <point x="809.0" y="790.0" type="line"/>
+      <point x="809.0" y="610.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

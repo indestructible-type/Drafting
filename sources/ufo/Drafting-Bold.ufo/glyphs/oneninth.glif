@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="oneninth" format="2">
+  <advance width="1200"/>
+  <unicode hex="2151"/>
+  <outline>
+    <contour>
+      <point x="99.0" y="730.0" type="line"/>
+      <point x="1101.0" y="730.0" type="line"/>
+      <point x="1101.0" y="520.0" type="line"/>
+      <point x="99.0" y="520.0" type="line"/>
+    </contour>
+    <component base="imod" yOffset="300.0"/>
+    <component base="ninesuperior" yOffset="-1008.0"/>
+  </outline>
+</glyph>

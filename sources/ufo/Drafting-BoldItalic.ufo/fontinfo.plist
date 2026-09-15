@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ascender</key>
+	<integer>1600</integer>
+	<key>copyright</key>
+	<string>Copyright 2021 The Drafting Mono Project Authors (https://github.com/indestructible-type/Drafting)</string>
+	<key>descender</key>
+	<integer>-400</integer>
+	<key>familyName</key>
+	<string>Drafting Mono</string>
+	<key>guidelines</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>bottom line</string>
+			<key>y</key>
+			<real>130.0</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>lowercase</string>
+			<key>y</key>
+			<real>920.0</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>capital</string>
+			<key>y</key>
+			<real>1300.0</real>
+		</dict>
+	</array>
+	<key>italicAngle</key>
+	<real>-10.0</real>
+	<key>note</key>
+	<string>2020-4-23: Created with FontForge (http://fontforge.org)</string>
+	<key>openTypeHeadCreated</key>
+	<string>2020/04/23 18:01:49</string>
+	<key>openTypeHheaAscender</key>
+	<integer>1600</integer>
+	<key>openTypeHheaDescender</key>
+	<integer>-400</integer>
+	<key>openTypeHheaLineGap</key>
+	<integer>0</integer>
+	<key>openTypeNameLicense</key>
+	<string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org</string>
+	<key>openTypeNameLicenseURL</key>
+	<string>https://openfontlicense.org</string>
+	<key>openTypeOS2Panose</key>
+	<array>
+		<integer>2</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>9</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+	</array>
+	<key>openTypeOS2Selection</key>
+	<array>
+		<integer>7</integer>
+	</array>
+	<key>openTypeOS2Type</key>
+	<array/>
+	<key>openTypeOS2TypoAscender</key>
+	<integer>1600</integer>
+	<key>openTypeOS2TypoDescender</key>
+	<integer>-400</integer>
+	<key>openTypeOS2TypoLineGap</key>
+	<integer>0</integer>
+	<key>openTypeOS2VendorID</key>
+	<string>it* </string>
+	<key>openTypeOS2WeightClass</key>
+	<integer>700</integer>
+	<key>openTypeOS2WidthClass</key>
+	<integer>5</integer>
+	<key>openTypeOS2WinAscent</key>
+	<integer>1835</integer>
+	<key>openTypeOS2WinDescent</key>
+	<integer>625</integer>
+	<key>openTypeVheaVertTypoLineGap</key>
+	<integer>0</integer>
+	<key>postscriptFontName</key>
+	<string>DraftingMono-Bold</string>
+	<key>postscriptFullName</key>
+	<string>Drafting Mono</string>
+	<key>postscriptIsFixedPitch</key>
+	<true/>
+	<key>postscriptSlantAngle</key>
+	<real>-10.0</real>
+	<key>postscriptUnderlinePosition</key>
+	<real>-150.0</real>
+	<key>postscriptUnderlineThickness</key>
+	<real>230.0</real>
+	<key>postscriptWeightName</key>
+	<string>Bold</string>
+	<key>styleName</key>
+	<string>Bold</string>
+	<key>unitsPerEm</key>
+	<integer>2000</integer>
+	<key>versionMajor</key>
+	<integer>1</integer>
+	<key>versionMinor</key>
+	<integer>200</integer>
+</dict>
+</plist>

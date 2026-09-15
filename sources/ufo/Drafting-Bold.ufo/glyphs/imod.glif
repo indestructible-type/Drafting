@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="imod" format="2">
+  <advance width="1200"/>
+  <unicode hex="2071"/>
+  <outline>
+    <contour>
+      <point x="207.0" y="610.0" type="line"/>
+      <point x="207.0" y="820.0" type="line"/>
+      <point x="512.0" y="820.0" type="line"/>
+      <point x="512.0" y="1100.0" type="line"/>
+      <point x="283.0" y="1100.0" type="line"/>
+      <point x="283.0" y="1300.0" type="line"/>
+      <point x="735.0" y="1300.0" type="line"/>
+      <point x="735.0" y="820.0" type="line"/>
+      <point x="1003.0" y="820.0" type="line"/>
+      <point x="1003.0" y="610.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="k.sc" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="760.853515625" y="1020.0" type="line"/>
+      <point x="1239.85351562" y="1020.0" type="line"/>
+      <point x="1216.93066406" y="890.0" type="line"/>
+      <point x="1078.93066406" y="890.0" type="line"/>
+      <point x="685.622070312" y="582.0" type="line"/>
+      <point x="977.922851562" y="130.0" type="line"/>
+      <point x="1122.92285156" y="130.0" type="line"/>
+      <point x="1100.0" y="0.0" type="line"/>
+      <point x="631.0" y="0.0" type="line"/>
+      <point x="653.922851562" y="130.0" type="line"/>
+      <point x="788.922851562" y="130.0" type="line"/>
+      <point x="562.63671875" y="480.0" type="line"/>
+      <point x="344.661132812" y="310.0" type="line"/>
+      <point x="312.922851562" y="130.0" type="line"/>
+      <point x="471.922851562" y="130.0" type="line"/>
+      <point x="449.0" y="0.0" type="line"/>
+      <point x="-10.0" y="0.0" type="line"/>
+      <point x="12.9228515625" y="130.0" type="line"/>
+      <point x="162.922851562" y="130.0" type="line"/>
+      <point x="296.930664062" y="890.0" type="line"/>
+      <point x="146.930664062" y="890.0" type="line"/>
+      <point x="169.853515625" y="1020.0" type="line"/>
+      <point x="608.853515625" y="1020.0" type="line"/>
+      <point x="585.930664062" y="890.0" type="line"/>
+      <point x="446.930664062" y="890.0" type="line"/>
+      <point x="377.10546875" y="494.0" type="line"/>
+      <point x="878.930664062" y="890.0" type="line"/>
+      <point x="737.930664062" y="890.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

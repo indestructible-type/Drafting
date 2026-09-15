@@ -65,6 +65,8 @@ defcon==0.10.3
     #   mutatormath
     #   ufoprocessor
     #   vfblib
+dehinter==4.0.0
+    # via -r requirements.in
 deprecated==1.2.14
     # via pygithub
 font-v==2.1.0

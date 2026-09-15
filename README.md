@@ -3,7 +3,7 @@
 ![Drafting* Picture](https://indestructibletype.com/assets/Drafting.svg)
 Drafting* Mono is an original monospaced font by indestructible type*
 
-it is inspired by typewriters. This is version 1.1
+it is inspired by typewriters. This is version 1.2
 
 Drafting* Mono is designed and maintained by [Owen Earl](https://ewonrael.github.io/), who is the creator of the font foundry [indestructible type*](http://indestructibletype.com).
 
@@ -18,7 +18,9 @@ Changelog
 <b>1.0</b>
 initial release<br>
 <b>1.1</b>
-added small caps & light weights
+added small caps & light weights<br>
+<b>1.2</b>
+fixed smallcaps bold placement in italics
 
 Building
 --------
@@ -26,9 +28,7 @@ Build scripts can be found inside the "sources" folder. To build, download and i
 
 Contributing
 ---------------
-Drafting* Mono is built and maintained using the open-source program [FontForge](https://fontforge.org), and by default will build the finished fonts using the FontForge files as sources. FontForge is free and cross platform, so it is possible for anyone looking to contribute to this project to use it to make modifications to the source files.
-
-If you'd rather work with UFO files, simply run the "build-ufo.sh" shell script, and UFO files will be generated using the FontForge files as sources. If a "ufo" folder is detected in the "sources" folder, the other build scripts will automatically switch to using the UFO files as sources instead of the FontForge files. All the scripts should work without having FontForge installed, so you should be able to contribute using your software of choice.
+Drafting* Mono's sources are [UFO](https://unifiedfontobject.org) files, found in "sources/ufo", along with designspace files that describe how the masters interpolate. UFO is an open, editor-agnostic format, so you can contribute using any UFO-compatible font editor.
 
 Contact
 -------

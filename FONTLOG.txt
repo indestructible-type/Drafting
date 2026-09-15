@@ -17,6 +17,8 @@ Changelog
 First Release
 =1.1 November 2021=
 added small caps & light weights
+=1.2=
+fixed smallcaps bold placement in italics
 
 Contact
 -------

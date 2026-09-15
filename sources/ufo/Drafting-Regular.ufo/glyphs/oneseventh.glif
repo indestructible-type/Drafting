@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="oneseventh" format="2">
+  <advance width="1200"/>
+  <unicode hex="2150"/>
+  <outline>
+    <contour>
+      <point x="99.0" y="680.0" type="line"/>
+      <point x="1101.0" y="680.0" type="line"/>
+      <point x="1101.0" y="570.0" type="line"/>
+      <point x="99.0" y="570.0" type="line"/>
+    </contour>
+    <component base="imod" yOffset="300.0"/>
+    <component base="sevensuperior" yOffset="-1010.0"/>
+  </outline>
+</glyph>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="twofifths" format="2">
+  <advance width="1200"/>
+  <unicode hex="2156"/>
+  <outline>
+    <contour>
+      <point x="99.0" y="640.0" type="line"/>
+      <point x="1101.0" y="640.0" type="line"/>
+      <point x="1101.0" y="610.0" type="line"/>
+      <point x="99.0" y="610.0" type="line"/>
+    </contour>
+    <component base="two.superior" xOffset="30.0" yOffset="296.0"/>
+    <component base="fivesuperior" xOffset="-200.0" yOffset="-1008.0"/>
+  </outline>
+</glyph>
