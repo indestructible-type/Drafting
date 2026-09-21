@@ -600,19 +600,6 @@
 		<string>zero.alt</string>
 		<string>one.alt</string>
 		<string>germandbls.sc</string>
-		<string>Schwa</string>
-		<string>teardropSpokedAsterisk</string>
-		<string>eightSpokedAsterisk</string>
-		<string>sixPointedBlackStar</string>
-		<string>fourTeardropSpokedAsterisk</string>
-		<string>heavyTeardropSpokedAsterisk</string>
-		<string>checkmark</string>
-		<string>ballotX</string>
-		<string>heavyBallotX</string>
-		<string>rightArrow</string>
-		<string>upArrow</string>
-		<string>downArrow</string>
-		<string>heavyrightpointinganglequotationmarkornament</string>
 		<string>boxLightHorizontal</string>
 		<string>boxLightVertical</string>
 		<string>boxLightDownAndRight</string>
@@ -906,15 +893,79 @@
 		<string>dots1345678-braille</string>
 		<string>dots2345678-braille</string>
 		<string>dots12345678-braille</string>
-		<string>leftArrow</string>
-		<string>downTipRightArrow</string>
 		<string>boxLightDownAndLeft</string>
-		<string>heavyMinus</string>
-		<string>heavyAsterisk</string>
-		<string>rightTriangleBlackArrow</string>
 		<string>upperHalfBlock</string>
 		<string>upperOneEighthBlock</string>
 		<string>rightOneEighthBlock</string>
+		<string>Schwa</string>
+		<string>teardropSpokedAsterisk</string>
+		<string>eightSpokedAsterisk</string>
+		<string>sixPointedBlackStar</string>
+		<string>fourTeardropSpokedAsterisk</string>
+		<string>heavyTeardropSpokedAsterisk</string>
+		<string>checkmark</string>
+		<string>ballotX</string>
+		<string>heavyBallotX</string>
+		<string>rightArrow</string>
+		<string>upArrow</string>
+		<string>downArrow</string>
+		<string>heavyrightpointinganglequotationmarkornament</string>
+		<string>leftArrow</string>
+		<string>downTipRightArrow</string>
+		<string>heavyMinus</string>
+		<string>heavyAsterisk</string>
+		<string>rightTriangleBlackArrow</string>
+		<string>ballotBox</string>
+		<string>blackFourPointedStar</string>
+		<string>blackInWhiteDiamond</string>
+		<string>blackMediumDiamond</string>
+		<string>blackSmallDiamond</string>
+		<string>blackSmallLozenge</string>
+		<string>blackSmallSquare</string>
+		<string>blackVerysmallSquare</string>
+		<string>boxHeavyHorizontal</string>
+		<string>boxHeavyUp</string>
+		<string>boxHeavyVertical</string>
+		<string>boxLightDiagonalUpperRightToLowerLeft</string>
+		<string>boxLightDownAndHorizontal</string>
+		<string>boxLightUpAndHorizontal</string>
+		<string>boxLightVerticalAndHorizontal</string>
+		<string>boxLightVerticalAndLeft</string>
+		<string>bullseye</string>
+		<string>dotmath</string>
+		<string>dottedCircle</string>
+		<string>downBlackSmallTriangle</string>
+		<string>downBlackTriangle</string>
+		<string>filledRect</string>
+		<string>fraction.circled</string>
+		<string>leftHalfBlackDiamond</string>
+		<string>leftHalfBlackWhiteCircle</string>
+		<string>lowerHalfBlackWhiteCircle</string>
+		<string>lowerHalfWhiteSquare</string>
+		<string>lowerLeftBlock</string>
+		<string>lowerLeftHalfWhiteSquare</string>
+		<string>lowerRightBlock</string>
+		<string>operator.circled</string>
+		<string>rightBlackPointer</string>
+		<string>rightBlackSmallTriangle</string>
+		<string>rightBlackTriangle</string>
+		<string>rightBlock</string>
+		<string>rightHalfBlackWhiteCircle</string>
+		<string>topHalfWhiteSquare</string>
+		<string>topRightHalfWhiteSquare</string>
+		<string>upperHalfBlackWhiteCircle</string>
+		<string>upperLeftAndLowerLeftAndLowerRightBlock</string>
+		<string>upperLeftAndUpperRightAndLowerLeftBlock</string>
+		<string>upperLeftAndUpperRightAndLowerRightBlock</string>
+		<string>upperLeftBlock</string>
+		<string>upperRightAndLowerLeftAndLowerRightBlock</string>
+		<string>upperRightBlackCircle</string>
+		<string>upperRightBlock</string>
+		<string>verticalFillCircle</string>
+		<string>whiteBullet</string>
+		<string>whiteFourPointedStar</string>
+		<string>whiteInBlackSquare</string>
+		<string>whiteSmallSquare</string>
 	</array>
 	<key>public.openTypeCategories</key>
 	<dict>

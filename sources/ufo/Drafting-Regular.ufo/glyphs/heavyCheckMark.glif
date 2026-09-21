@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="heavyCheckMark" format="2">
+  <advance width="1200"/>
+  <unicode hex="2714"/>
+  <outline>
+    <contour>
+      <point x="455.3920440673828" y="211.7757797241211" type="line"/>
+      <point x="1224.724220275879" y="981.1079559326172" type="line"/>
+      <point x="1003.6079559326172" y="1202.224220275879" type="line"/>
+      <point x="455.29878997802734" y="654.0781326293945" type="line"/>
+      <point x="181.13451385498047" y="928.3821258544922" type="line"/>
+      <point x="-39.98175811767578" y="706.8738098144531" type="line"/>
+    </contour>
+  </outline>
+</glyph>

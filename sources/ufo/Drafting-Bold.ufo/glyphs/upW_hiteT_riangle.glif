@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upWhiteTriangle" format="2">
+  <advance width="1200"/>
+  <unicode hex="25B3"/>
+  <outline>
+    <contour>
+      <point x="-70" y="0" type="line"/>
+      <point x="1270" y="0" type="line"/>
+      <point x="600.0" y="1250.0" type="line"/>
+      <point x="600" y="1250" type="line"/>
+    </contour>
+    <contour>
+      <point x="283.30053" y="210.28093750000005" type="line"/>
+      <point x="600.0" y="788.4690625000001" type="line"/>
+      <point x="600.0" y="788.4690625000001" type="line"/>
+      <point x="916.6994700000001" y="210.28093750000005" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shadedark" format="2">
+  <advance width="1200"/>
+  <unicode hex="2593"/>
+  <outline>
+    <contour>
+      <point x="1200" y="643.8406219482422" type="line"/>
+      <point x="1200" y="1156.1593780517578" type="line"/>
+      <point x="521.1593780517578" y="1835" type="line"/>
+      <point x="8.840621948242188" y="1835" type="line"/>
+    </contour>
+    <contour>
+      <point x="1200" y="43.84062194824219" type="line"/>
+      <point x="1200" y="556.1593780517578" type="line"/>
+      <point x="0" y="1756.1593780517578" type="line"/>
+      <point x="0" y="1243.8406219482422" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="643.8406219482422" type="line"/>
+      <point x="1200" y="-556.1593780517578" type="line"/>
+      <point x="1200" y="-43.84062194824219" type="line"/>
+      <point x="0" y="1156.1593780517578" type="line"/>
+    </contour>
+    <contour>
+      <point x="1200" y="1243.8406219482422" type="line"/>
+      <point x="1200" y="1756.1593780517578" type="line"/>
+      <point x="1121.1593780517578" y="1835" type="line"/>
+      <point x="608.8406219482422" y="1835" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="43.84062194824219" type="line"/>
+      <point x="668.8406219482422" y="-625" type="line"/>
+      <point x="1181.1593780517578" y="-625" type="line"/>
+      <point x="0" y="556.1593780517578" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="-625" type="line"/>
+      <point x="581.1593780517578" y="-625" type="line"/>
+      <point x="0" y="-43.84062194824219" type="line"/>
+    </contour>
+  </outline>
+</glyph>

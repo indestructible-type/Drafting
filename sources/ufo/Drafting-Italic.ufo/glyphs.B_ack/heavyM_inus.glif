@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="heavyMinus" format="2">
+  <advance width="1200"/>
+  <unicode hex="2796"/>
+  <outline>
+    <contour>
+      <point x="55.44258387886504" y="550.508579962858" type="line"/>
+      <point x="1143.442581442928" y="550.5085799628581" type="line"/>
+      <point x="1143.442581442928" y="863.2141998583731" type="line"/>
+      <point x="55.165366860294625" y="863.4914276665365" type="line"/>
+    </contour>
+  </outline>
+</glyph>

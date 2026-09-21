@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lowerHalfWhiteSquare" format="2">
+  <advance width="1200"/>
+  <unicode hex="2B12"/>
+  <outline>
+    <contour>
+      <point x="120.0" y="40.0" type="line"/>
+      <point x="1080.0" y="40.0" type="line"/>
+      <point x="1080.0" y="1000.0" type="line"/>
+      <point x="120.0" y="1000.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="235.0" y="885.0" type="line"/>
+      <point x="965.0" y="885.0" type="line"/>
+      <point x="965.0" y="155.0" type="line"/>
+      <point x="235.0" y="155.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="160" y="520" type="line"/>
+      <point x="1005" y="520" type="line"/>
+      <point x="1005.0" y="945.0" type="line"/>
+      <point x="160.0" y="945.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

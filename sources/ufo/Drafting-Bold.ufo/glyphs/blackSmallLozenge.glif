@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="blackSmallLozenge" format="2">
+  <advance width="1200"/>
+  <unicode hex="2B2A"/>
+  <outline>
+    <contour>
+      <point x="421.65590577938065" y="621.3603246077427" type="line"/>
+      <point x="596.3603246077427" y="356.65590577938065" type="line"/>
+      <point x="778.3440942206196" y="628.6396753922577" type="line"/>
+      <point x="603.6396753922577" y="893.3440942206196" type="line"/>
+    </contour>
+  </outline>
+</glyph>

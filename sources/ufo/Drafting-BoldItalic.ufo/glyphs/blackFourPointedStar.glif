@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="blackFourPointedStar" format="2">
+  <advance width="1200"/>
+  <unicode hex="2726"/>
+  <outline>
+    <contour>
+      <point x="-88.82250993908565" y="510.0" type="line"/>
+      <point x="211.0" y="510.0"/>
+      <point x="590.0" y="131.17749006091447"/>
+      <point x="590.0" y="-168.82250993908553" type="curve"/>
+      <point x="610" y="-168.822509765625" type="line"/>
+      <point x="610.0" y="131.17749006091447"/>
+      <point x="989.0" y="510.0000000000001"/>
+      <point x="1288.8225099390856" y="510.0000000000001" type="curve"/>
+      <point x="1288.8225099390856" y="530.0000000000001" type="line"/>
+      <point x="989.0" y="530.0000000000001"/>
+      <point x="610.0" y="908.8225099390856"/>
+      <point x="609.9999999999999" y="1208.8225099390856" type="curve"/>
+      <point x="590" y="1208.822509765625" type="line"/>
+      <point x="590.0" y="908.8225099390856"/>
+      <point x="211.0" y="530.0"/>
+      <point x="-88.82250993908565" y="530.0" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftHalfBlackDiamond" format="2">
+  <advance width="1200"/>
+  <unicode hex="2B16"/>
+  <outline>
+    <contour>
+      <point x="-78.82250993908565" y="520.0" type="line"/>
+      <point x="600.0" y="-158.82250993908553" type="line"/>
+      <point x="1278.8225099390856" y="520.0000000000001" type="line"/>
+      <point x="599.9999999999999" y="1198.8225099390856" type="line"/>
+    </contour>
+    <contour>
+      <point x="669.9434672610671" y="896.3010157440451" type="line"/>
+      <point x="1046.244483005112" y="520.0000000000001" type="line"/>
+      <point x="669.9434672610671" y="143.69898425595505" type="line"/>
+    </contour>
+  </outline>
+</glyph>
