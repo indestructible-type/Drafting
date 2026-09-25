@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftHalfBlackDiamond" format="2">
+  <outline>
+    <contour>
+      <point x="20.987350291814984" y="624.9999999999999" type="line"/>
+      <point x="600.0" y="45.987350291814934" type="line"/>
+      <point x="1179.0126497081853" y="624.9999999999999" type="line"/>
+      <point x="600.0" y="1204.012649708185" type="line"/>
+    </contour>
+  </outline>
+</glyph>

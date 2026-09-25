@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightTriangleBlackArrow" format="2">
+  <advance width="1200"/>
+  <unicode hex="27A1"/>
+  <outline>
+    <contour>
+      <point x="55.44258117675781" y="430.50858306884766" type="line"/>
+      <point x="876.1825256347656" y="430.50858306884766" type="line"/>
+      <point x="877.1653671264648" y="156.49142456054688" type="line"/>
+      <point x="1313.1653671264648" y="711.4914245605469" type="line"/>
+      <point x="877.1653671264648" y="1266.4914245605469" type="line"/>
+      <point x="877.3954544067383" y="983.2613372802734" type="line"/>
+      <point x="55.165367126464844" y="983.4914245605469" type="line"/>
+    </contour>
+  </outline>
+</glyph>

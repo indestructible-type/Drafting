@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightTabArrow" format="2">
+  <outline>
+    <contour>
+      <point x="-336.9999999999995" y="691.999999999999" type="line"/>
+      <point x="471.0000000000002" y="691.9999999999999" type="line"/>
+      <point x="873.2941207885744" y="702.2941207885741" type="line"/>
+      <point x="454.70710678118667" y="291.99999999999955" type="line"/>
+      <point x="485.00000000000045" y="271.99999999999943" type="line"/>
+      <point x="921.0" y="707.0" type="line"/>
+      <point x="484.9999999999998" y="1141.9999999999993" type="line"/>
+      <point x="454.70710678118644" y="1111.9999999999995" type="line"/>
+      <point x="871.1633987426756" y="713.8366012573239" type="line"/>
+      <point x="471.0000000000002" y="723.9999999999995" type="line"/>
+      <point x="-337.0" y="723.999999999999" type="line"/>
+    </contour>
+  </outline>
+</glyph>

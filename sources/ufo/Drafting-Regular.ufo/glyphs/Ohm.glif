@@ -3,45 +3,6 @@
   <advance width="1200"/>
   <unicode hex="2126"/>
   <outline>
-    <contour>
-      <point x="599.0" y="1180.0" type="curve" smooth="yes"/>
-      <point x="411.0" y="1180.0"/>
-      <point x="259.99999999999994" y="1053"/>
-      <point x="259.99999999999994" y="763.664699270518" type="curve" smooth="yes"/>
-      <point x="259.99999999999994" y="516"/>
-      <point x="340.63749099999995" y="415.904836"/>
-      <point x="520" y="331.81473541259766" type="curve"/>
-      <point x="550" y="191.16924285888672" type="line"/>
-      <point x="512" y="0" type="line"/>
-      <point x="32" y="0" type="line"/>
-      <point x="32" y="150" type="line"/>
-      <point x="391.95863342285156" y="107.14778137207031" type="line"/>
-      <point x="410.62183380126953" y="208.2907257080078" type="line"/>
-      <point x="198.94032904456702" y="330.284801216218"/>
-      <point x="100.0" y="498"/>
-      <point x="100.0" y="770.6641032835353" type="curve" smooth="yes"/>
-      <point x="100.0" y="1126"/>
-      <point x="302.0" y="1320.0"/>
-      <point x="599.0" y="1320.0" type="curve" smooth="yes"/>
-      <point x="896.0" y="1320.0"/>
-      <point x="1099.0" y="1126"/>
-      <point x="1099.0" y="770.988785586238" type="curve" smooth="yes"/>
-      <point x="1099.0" y="499"/>
-      <point x="999.844555946016" y="330.897597691432"/>
-      <point x="788.6324005126953" y="208.57305908203125" type="curve"/>
-      <point x="807.7280731201172" y="107.11048126220703" type="line"/>
-      <point x="1168" y="150" type="line"/>
-      <point x="1168" y="0" type="line"/>
-      <point x="688" y="0" type="line"/>
-      <point x="649.3709487915039" y="191.38937377929688" type="line"/>
-      <point x="649.3709487915039" y="191.38937377929688"/>
-      <point x="695.9577038357313" y="331.6962004312212"/>
-      <point x="698" y="331.8123016357422" type="curve"/>
-      <point x="877.510426777148" y="415.89805619323596"/>
-      <point x="939.0" y="516"/>
-      <point x="939.0" y="742.9894586720163" type="curve" smooth="yes"/>
-      <point x="939.0" y="1053"/>
-      <point x="787.0" y="1180.0"/>
-    </contour>
+    <component base="Omega"/>
   </outline>
 </glyph>

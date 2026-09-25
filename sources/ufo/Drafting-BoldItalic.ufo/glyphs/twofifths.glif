@@ -5,9 +5,9 @@
   <outline>
     <contour>
       <point x="99.0" y="730.0" type="line"/>
-      <point x="1101.0" y="730.0" type="line"/>
-      <point x="1101.0" y="520.0" type="line"/>
       <point x="99.0" y="520.0" type="line"/>
+      <point x="1101.0" y="520.0" type="line"/>
+      <point x="1101.0" y="730.0" type="line"/>
     </contour>
     <component base="two.superior" xOffset="30.0" yOffset="296.0"/>
     <component base="fivesuperior" xOffset="-200.0" yOffset="-1008.0"/>

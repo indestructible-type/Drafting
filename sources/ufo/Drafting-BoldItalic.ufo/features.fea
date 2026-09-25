@@ -3,16 +3,46 @@
 languagesystem DFLT dflt;
 languagesystem grek dflt;
 languagesystem latn dflt;
+languagesystem latn TRK;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn KAZ;
+languagesystem latn TAT;
 
 
 # GSUB 
 
+
+# Soft-dotted i/j/į lose their dot under a combining mark above
+# (i + U+030A -> dotlessi ringcomb). Precomposed í ì î ï ĩ ī ĭ ĵ are
+# already built on the dotless bases; this covers typed sequences with no
+# precomposed form. Marks below/attached (cedilla, ogonek, dot/comma below)
+# sort before marks above in normalized text, so one may sit in between.
+# Defined first so it runs before smcp and friends.
+@SoftDotted = [\i \j \iogonek];
+@SoftDottedDotless = [\dotlessi \jdotless \iogonek.dotless];
+@CombiningAbove = [\gravecomb \acutecomb \circumflexcomb \tildecomb \macroncomb \brevecomb \dotaccentcomb \dieresiscomb \ringcomb \hungarumlautcomb \caroncomb \breveinvertedcomb \commaturnedabovecomb];
+@CombiningNonAbove = [\cedillacomb \ogonekcomb \dotbelowcomb \commaaccentcomb];
+
+lookup ccmpSoftDottedlookup {
+  lookupflag 0;
+    sub @SoftDotted' @CombiningAbove by @SoftDottedDotless;
+    sub @SoftDotted' @CombiningNonAbove @CombiningAbove by @SoftDottedDotless;
+} ccmpSoftDottedlookup;
 
 lookup ss02StyleSet2lookup6 {
   lookupflag 0;
     sub \zero by \zero.alt ;
     sub \one by \one.alt ;
 } ss02StyleSet2lookup6;
+
+# Turkic languages pair i with dotted İ and ı with dotless I, so small-cap
+# i keeps its dot (idotaccent.sc, as c2sc does for İ). Defined before the
+# default smcp lookup so it wins.
+lookup smcpDottedIinTurkiclookup {
+  lookupflag 0;
+    sub \i by \idotaccent.sc ;
+} smcpDottedIinTurkiclookup;
 
 lookup smcpLowercasetoSmallCapitalsinLatinlookup0 {
   lookupflag 0;
@@ -22,6 +52,7 @@ lookup smcpLowercasetoSmallCapitalsinLatinlookup0 {
     sub \l by \l.sc ;
     sub \n by \n.sc ;
     sub \i by \i.sc ;
+    sub \dotlessi by \i.sc ;
     sub \k by \k.sc ;
     sub \j by \j.sc ;
     sub \h by \h.sc ;
@@ -137,6 +168,24 @@ lookup smcpLowercasetoSmallCapitalsinLatinlookup0 {
     sub \rinvertedbreve by \rinvertedbreve.sc ;
     sub \scommaaccent by \scommaaccent.sc ;
     sub \tcommaaccent by \tcommaaccent.sc ;
+    sub \wgrave by \wgrave.sc ;
+    sub \wacute by \wacute.sc ;
+    sub \wdieresis by \wdieresis.sc ;
+    sub \wdotaccent by \wdotaccent.sc ;
+    sub \wdotbelow by \wdotbelow.sc ;
+    sub \ygrave by \ygrave.sc ;
+    sub \aringacute by \aringacute.sc ;
+    sub \aeacute by \aeacute.sc ;
+    sub \oslashacute by \oslashacute.sc ;
+    sub \napostrophe by \napostrophe.sc ;
+    sub \thorn by \thorn.sc ;
+    sub \schwa by \schwa.sc ;
+    sub \kgreenlandic by \kgreenlandic.sc ;
+    sub \longs by \s.sc ;
+    sub \jdotless by \j.sc ;
+    sub \acaron by \acaron.sc ;
+    sub \ucaron by \ucaron.sc ;
+    sub \etilde by \etilde.sc ;
 } smcpLowercasetoSmallCapitalsinLatinlookup0;
 
 lookup c2scCapitalstoSmallCapitalsinLatinlookup0 {
@@ -263,6 +312,20 @@ lookup c2scCapitalstoSmallCapitalsinLatinlookup0 {
     sub \Scommaaccent by \scommaaccent.sc ;
     sub \Tcommaaccent by \tcommaaccent.sc ;
     sub \Germandbls by \germandbls.sc ;
+    sub \Wgrave by \wgrave.sc ;
+    sub \Wacute by \wacute.sc ;
+    sub \Wdieresis by \wdieresis.sc ;
+    sub \Wdotaccent by \wdotaccent.sc ;
+    sub \Wdotbelow by \wdotbelow.sc ;
+    sub \Ygrave by \ygrave.sc ;
+    sub \Aringacute by \aringacute.sc ;
+    sub \AEacute by \aeacute.sc ;
+    sub \Oslashacute by \oslashacute.sc ;
+    sub \Thorn by \thorn.sc ;
+    sub \Schwa by \schwa.sc ;
+    sub \Acaron by \acaron.sc ;
+    sub \Ucaron by \ucaron.sc ;
+    sub \Etilde by \etilde.sc ;
 } c2scCapitalstoSmallCapitalsinLatinlookup0;
 
 lookup ss01StyleSet1inLatinlookup0 {
@@ -286,6 +349,29 @@ lookup caltContextualAlternatesinLatinlookup1 {
     sub @cc4_back_1 @cc4_match_3'lookup ss01StyleSet1inLatinlookup0  ;
 } caltContextualAlternatesinLatinlookup1;
 
+lookup supsTrademarkSuperiorsInLatinlookup0 {
+  lookupflag 0;
+    sub \copyright by \copyright.superior ;
+    sub \registered by \registered.superior ;
+    sub \published by \published.superior ;
+} supsTrademarkSuperiorsInLatinlookup0;
+
+feature ccmp {
+
+ script DFLT;
+     language dflt ;
+      lookup ccmpSoftDottedlookup;
+
+ script latn;
+     language dflt ;
+      lookup ccmpSoftDottedlookup;
+     language TRK ;
+     language AZE ;
+     language CRT ;
+     language KAZ ;
+     language TAT ;
+} ccmp;
+
 feature ss02 {
 
  script DFLT;
@@ -299,6 +385,11 @@ feature ss02 {
  script latn;
      language dflt ;
       lookup ss02StyleSet2lookup6;
+     language TRK ;
+     language AZE ;
+     language CRT ;
+     language KAZ ;
+     language TAT ;
 } ss02;
 
 feature smcp {
@@ -306,6 +397,16 @@ feature smcp {
  script latn;
      language dflt ;
       lookup smcpLowercasetoSmallCapitalsinLatinlookup0;
+     language TRK ;
+      lookup smcpDottedIinTurkiclookup;
+     language AZE ;
+      lookup smcpDottedIinTurkiclookup;
+     language CRT ;
+      lookup smcpDottedIinTurkiclookup;
+     language KAZ ;
+      lookup smcpDottedIinTurkiclookup;
+     language TAT ;
+      lookup smcpDottedIinTurkiclookup;
 } smcp;
 
 feature c2sc {
@@ -313,6 +414,11 @@ feature c2sc {
  script latn;
      language dflt ;
       lookup c2scCapitalstoSmallCapitalsinLatinlookup0;
+     language TRK ;
+     language AZE ;
+     language CRT ;
+     language KAZ ;
+     language TAT ;
 } c2sc;
 
 feature ss01 {
@@ -324,6 +430,11 @@ feature ss01 {
  script latn;
      language dflt ;
       lookup ss01StyleSet1inLatinlookup0;
+     language TRK ;
+     language AZE ;
+     language CRT ;
+     language KAZ ;
+     language TAT ;
 } ss01;
 
 feature calt {
@@ -335,7 +446,28 @@ feature calt {
  script latn;
      language dflt ;
       lookup caltContextualAlternatesinLatinlookup1;
+     language TRK ;
+     language AZE ;
+     language CRT ;
+     language KAZ ;
+     language TAT ;
 } calt;
+
+feature sups {
+
+ script DFLT;
+     language dflt ;
+      lookup supsTrademarkSuperiorsInLatinlookup0;
+
+ script latn;
+     language dflt ;
+      lookup supsTrademarkSuperiorsInLatinlookup0;
+     language TRK ;
+     language AZE ;
+     language CRT ;
+     language KAZ ;
+     language TAT ;
+} sups;
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z \space 
@@ -359,7 +491,7 @@ feature calt {
 	\quoteright \quotesinglbase \quotereversed \quoteleft \guilsinglleft 
 	\guilsinglright \minute \second \exclamdbl \perthousand \interrobang 
 	\onedotenleader \circumflex \caron \firsttonechinese \secondtonechinese \breve \dotaccent \ring 
-	\ogonek \tilde \hungarumlaut \fourthtonechinese \commaturnedabovecomb \Agrave \Aacute \Acircumflex 
+	\ogonek \tilde \hungarumlaut \fourthtonechinese \Agrave \Aacute \Acircumflex 
 	\Atilde \Aring \agrave \aacute \acircumflex \atilde \adieresis \aring \ccedilla 
 	\Ccedilla \Egrave \Eacute \Ecircumflex \Edieresis \Igrave \Iacute \Icircumflex 
 	\Idieresis \Ntilde \Ograve \Oacute \Ocircumflex \Otilde \Odieresis \Uacute 
@@ -371,7 +503,7 @@ feature calt {
 	\Oslash \oslash \Dcroat \dcroat \Emacron \emacron \Ebreve \ebreve \Edotaccent 
 	\edotaccent \Eogonek \eogonek \Ecaron \ecaron \Gcircumflex \gcircumflex \Gbreve 
 	\gbreve \Gdotaccent \gdotaccent \Gcommaaccent \gcommaaccent \Hcircumflex \hcircumflex 
-	\Hbar \hbar \Itilde \itilde \Imacron \imacron \Ibreve \ibreve \Iogonek \iogonek 
+	\Hbar \hbar \Itilde \itilde \Imacron \imacron \Ibreve \ibreve \Iogonek \iogonek \iogonek.dotless 
 	\Idotaccent \Jcircumflex \jcircumflex \Kcommaaccent \kcommaaccent \kgreenlandic \Lacute 
 	\lacute \Lcommaaccent \lcommaaccent \Lcaron \lcaron \Ldot \ldot \Lslash \lslash \Nacute 
 	\nacute \Ncommaaccent \ncommaaccent \Ncaron \ncaron \napostrophe \Eng \eng \Omacron 
@@ -388,7 +520,7 @@ feature calt {
 	\twofifths \threefifths \fourfifths \fivesixths \threeeighths \fiveeighths \seveneighths 
 	\partialdiff \integral \bulletoperator \product \minus \summation \divisionslash \emptyset 
 	\radical \infinity \approxequal \notequal \lessequal \greaterequal \lozenge 
-	\copyright.superior \registered.superior \trademark.pua \hyphentwo \nonbreakinghyphen \figuredash \endash \emdash 
+	\copyright.superior \registered.superior \published.superior \hyphentwo \nonbreakinghyphen \figuredash \endash \emdash 
 	\horizontalbar \a.sc \b.sc \c.sc \d.sc \e.sc \f.sc \g.sc \h.sc \i.sc \j.sc \k.sc \l.sc 
 	\m.sc \n.sc \o.sc \p.sc \q.sc \r.sc \s.sc \t.sc \u.sc \v.sc \w.sc \x.sc \y.sc \z.sc 
 	\agrave.sc \aacute.sc \acircumflex.sc \atilde.sc \adieresis.sc \aring.sc 
@@ -407,10 +539,10 @@ feature calt {
 	\tcaron.sc \tbar.sc \utilde.sc \umacron.sc \ubreve.sc \uring.sc 
 	\uhungarumlaut.sc \uogonek.sc \wcircumflex.sc \ycircumflex.sc \ydieresis.sc 
 	\zacute.sc \zdotaccent.sc \zcaron.sc \rinvertedbreve.sc \scommaaccent.sc \tcommaaccent.sc 
-	\zero.alt \one.alt \germandbls.sc ];
+	\zero.alt \one.alt \germandbls.sc \thorn.sc \kgreenlandic.sc \napostrophe.sc \aringacute.sc \aeacute.sc \oslashacute.sc \schwa.sc \wgrave.sc \wacute.sc \wdieresis.sc \wdotaccent.sc \wdotbelow.sc \ygrave.sc \Acaron \acaron \Ucaron \ucaron \Etilde \etilde \acaron.sc \ucaron.sc \etilde.sc];
 @GDEF_Mark = [\dotbelowcomb \gravecomb \acutecomb \tildecomb \circumflexcomb 
 	\macroncomb \brevecomb \dotaccentcomb \dieresiscomb \ringcomb \hungarumlautcomb \commaaccentcomb \ogonekcomb \cedillacomb 
-	\caroncomb \breveinvertedcomb ];
+	\caroncomb \breveinvertedcomb \commaturnedabovecomb ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;

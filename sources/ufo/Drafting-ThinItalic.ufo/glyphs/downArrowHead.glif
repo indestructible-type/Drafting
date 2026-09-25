@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="downArrowHead" format="2">
+  <advance width="1200"/>
+  <unicode hex="2304"/>
+  <outline>
+    <contour>
+      <point x="599.3039779663086" y="35.687713623046875" type="line"/>
+      <point x="1094.724220275879" y="531.1079559326172" type="line"/>
+      <point x="1065.0" y="551.1079559326172" type="line"/>
+      <point x="599.3039779663086" y="85.68771362304688" type="line"/>
+      <point x="134.0" y="550.9119338989258" type="line"/>
+      <point x="104.07975006103516" y="530.9119338989258" type="line"/>
+    </contour>
+  </outline>
+</glyph>

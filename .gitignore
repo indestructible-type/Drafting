@@ -1,3 +1,9 @@
 .venv/
 __pycache__/
 *.pyc
+# gftools builder working files
+sources/build.ninja
+sources/.ninja_log
+sources/designspace/instance_ufos/
+sources/instance_ufo/
+sources/master_ufo/

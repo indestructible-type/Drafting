@@ -4,19 +4,19 @@
   <outline>
     <contour>
       <point x="991.0" y="530.0" type="line"/>
-      <point x="1100.0" y="530.0" type="line"/>
-      <point x="1080.0" y="0.0" type="line"/>
-      <point x="70.0" y="0.0" type="line"/>
-      <point x="70.0" y="130.0" type="line"/>
-      <point x="260.0" y="130.0" type="line"/>
-      <point x="260.0" y="900.0" type="line"/>
-      <point x="90.0" y="900.0" type="line"/>
-      <point x="90.0" y="1020.0" type="line"/>
-      <point x="619.0" y="1020.0" type="line"/>
-      <point x="619.0" y="900.0" type="line"/>
-      <point x="419.0" y="900.0" type="line"/>
-      <point x="419.0" y="130.0" type="line"/>
       <point x="925.0" y="130.0" type="line"/>
+      <point x="419.0" y="130.0" type="line"/>
+      <point x="419.0" y="900.0" type="line"/>
+      <point x="619.0" y="900.0" type="line"/>
+      <point x="619.0" y="1020.0" type="line"/>
+      <point x="90.0" y="1020.0" type="line"/>
+      <point x="90.0" y="900.0" type="line"/>
+      <point x="260.0" y="900.0" type="line"/>
+      <point x="260.0" y="130.0" type="line"/>
+      <point x="70.0" y="130.0" type="line"/>
+      <point x="70.0" y="0.0" type="line"/>
+      <point x="1080.0" y="0.0" type="line"/>
+      <point x="1100.0" y="530.0" type="line"/>
     </contour>
   </outline>
 </glyph>

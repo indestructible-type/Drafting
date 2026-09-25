@@ -5,11 +5,11 @@
   <outline>
     <contour>
       <point x="99.0" y="640.0" type="line"/>
-      <point x="1101.0" y="640.0" type="line"/>
-      <point x="1101.0" y="610.0" type="line"/>
       <point x="99.0" y="610.0" type="line"/>
+      <point x="1101.0" y="610.0" type="line"/>
+      <point x="1101.0" y="640.0" type="line"/>
     </contour>
     <component base="two.superior" xOffset="-190.0" yOffset="-1010.0"/>
-    <component base="imod" xOffset="30.0" yOffset="300.0"/>
+    <component base="onesuperior" xOffset="30.0" yOffset="300.0"/>
   </outline>
 </glyph>

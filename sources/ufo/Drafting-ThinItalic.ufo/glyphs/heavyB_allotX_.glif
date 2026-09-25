@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="heavyBallotX" format="2">
+  <advance width="1200"/>
+  <unicode hex="2718"/>
+  <outline>
+    <contour>
+      <point x="325.3920440673828" y="211.7757797241211" type="line"/>
+      <point x="599.3039779663086" y="485.6877136230469" type="line"/>
+      <point x="873.4119262695312" y="211.5797576904297" type="line"/>
+      <point x="1094.528190612793" y="432.6960220336914" type="line"/>
+      <point x="820.4900665283203" y="706.8738021850586" type="line"/>
+      <point x="1094.724220275879" y="981.1079559326172" type="line"/>
+      <point x="873.6079559326172" y="1202.224220275879" type="line"/>
+      <point x="599.3602981567383" y="928.1162567138672" type="line"/>
+      <point x="325.1960220336914" y="1202.4202499389648" type="line"/>
+      <point x="104.07975006103516" y="980.9119338989258" type="line"/>
+      <point x="378.06150817871094" y="706.93017578125" type="line"/>
+      <point x="103.88372802734375" y="432.89205169677734" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -4,9 +4,9 @@
   <outline>
     <contour>
       <point x="776.0" y="1131.0" type="line"/>
-      <point x="969.0" y="1029.0" type="line"/>
-      <point x="424.0" y="-104.0" type="line"/>
       <point x="231.0" y="-2.0" type="line"/>
+      <point x="424.0" y="-104.0" type="line"/>
+      <point x="969.0" y="1029.0" type="line"/>
     </contour>
     <component base="o.sc" xOffset="0.35385"/>
   </outline>

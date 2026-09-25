@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="napostrophe.sc" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="407.605" y="780.0" type="line"/>
+      <point x="449.924" y="1020.0" type="line"/>
+      <point x="291.924" y="1020.0" type="line"/>
+      <point x="249.605" y="780.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="389.924" y="1020.0" type="line"/>
+      <point x="206.543" y="-20.0" type="line"/>
+      <point x="465.543" y="-20.0" type="line"/>
+      <point x="602.55" y="757.0" type="line"/>
+      <point x="601.709" y="877.0" type="line"/>
+      <point x="633.786" y="747.0" type="line"/>
+      <point x="708.543" y="-20.0" type="line"/>
+      <point x="1036.543" y="-20.0" type="line"/>
+      <point x="1223.45" y="1040.0" type="line"/>
+      <point x="974.45" y="1040.0" type="line"/>
+      <point x="858.603" y="383.0" type="line"/>
+      <point x="795.924" y="1020.0" type="line"/>
+    </contour>
+    <component base="apostrophemod" xOffset="-480.137"/>
+  </outline>
+</glyph>

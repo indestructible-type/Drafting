@@ -5,17 +5,17 @@
   <outline>
     <contour>
       <point x="200.0" y="290.0" type="line"/>
-      <point x="200.0" y="-400.0" type="line"/>
-      <point x="77.0" y="-400.0" type="line"/>
       <point x="77.0" y="290.0" type="line"/>
+      <point x="77.0" y="-400.0" type="line"/>
+      <point x="200.0" y="-400.0" type="line"/>
     </contour>
     <contour>
       <point x="99.0" y="680.0" type="line"/>
-      <point x="1101.0" y="680.0" type="line"/>
-      <point x="1101.0" y="570.0" type="line"/>
       <point x="99.0" y="570.0" type="line"/>
+      <point x="1101.0" y="570.0" type="line"/>
+      <point x="1101.0" y="680.0" type="line"/>
     </contour>
-    <component base="imod" yOffset="300.0"/>
+    <component base="onesuperior" yOffset="300.0"/>
     <component base="zerosuperior" xOffset="150.0" yOffset="-1010.0"/>
   </outline>
 </glyph>

@@ -5,13 +5,13 @@
   <outline>
     <contour>
       <point x="1079.04101562" y="1350.0" type="line"/>
-      <point x="832.006835938" y="-51.0" type="line"/>
-      <point x="190.006835938" y="-51.0" type="line"/>
-      <point x="197.060546875" y="-11.0" type="line"/>
-      <point x="657.060546875" y="-11.0" type="line"/>
-      <point x="889.98828125" y="1310.0" type="line"/>
-      <point x="429.98828125" y="1310.0" type="line"/>
       <point x="437.041015625" y="1350.0" type="line"/>
+      <point x="429.98828125" y="1310.0" type="line"/>
+      <point x="889.98828125" y="1310.0" type="line"/>
+      <point x="657.060546875" y="-11.0" type="line"/>
+      <point x="197.060546875" y="-11.0" type="line"/>
+      <point x="190.006835938" y="-51.0" type="line"/>
+      <point x="832.006835938" y="-51.0" type="line"/>
     </contour>
   </outline>
 </glyph>

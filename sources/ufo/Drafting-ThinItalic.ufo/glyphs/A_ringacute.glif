@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Aringacute" format="2">
+  <advance width="1200"/>
+  <unicode hex="01FA"/>
+  <outline>
+    <contour>
+      <point x="39.0" y="-20.0" type="line"/>
+      <point x="721.0" y="1237.0" type="line"/>
+      <point x="814.0" y="1237.0" type="line"/>
+      <point x="993.0" y="-20.0" type="line"/>
+      <point x="1030.0" y="-20.0" type="line"/>
+      <point x="847.0" y="1245.0" type="line"/>
+      <point x="689.0" y="1245.0" type="line"/>
+      <point x="4.0" y="-20.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="298.0" y="500.0" type="line"/>
+      <point x="298.0" y="470.0" type="line"/>
+      <point x="942.0" y="470.0" type="line"/>
+      <point x="942.0" y="500.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="576.0" y="1416.0" type="curve" smooth="yes"/>
+      <point x="576.0" y="1296.0"/>
+      <point x="676.0" y="1216.0"/>
+      <point x="780.0" y="1216.0" type="curve" smooth="yes"/>
+      <point x="884.0" y="1216.0"/>
+      <point x="984.0" y="1296.0"/>
+      <point x="984.0" y="1416.0" type="curve" smooth="yes"/>
+      <point x="984.0" y="1536.0"/>
+      <point x="884.0" y="1616.0"/>
+      <point x="780.0" y="1616.0" type="curve" smooth="yes"/>
+      <point x="676.0" y="1616.0"/>
+      <point x="576.0" y="1536.0"/>
+    </contour>
+    <contour>
+      <point x="611.0" y="1416.0" type="curve" smooth="yes"/>
+      <point x="611.0" y="1532.9230259999995"/>
+      <point x="691.4219499999997" y="1586.0"/>
+      <point x="780.0" y="1586.0" type="curve" smooth="yes"/>
+      <point x="868.5780499999998" y="1586.0"/>
+      <point x="949.0" y="1532.9230259999995"/>
+      <point x="949.0" y="1416.0" type="curve" smooth="yes"/>
+      <point x="949.0" y="1299.0769739999998"/>
+      <point x="868.5780499999998" y="1246.0"/>
+      <point x="780.0" y="1246.0" type="curve" smooth="yes"/>
+      <point x="691.4219499999997" y="1246.0"/>
+      <point x="611.0" y="1299.0769739999998"/>
+    </contour>
+    <component base="acutecomb" xOffset="1458.1077147016013" yOffset="643.0669577874817"/>
+  </outline>
+</glyph>

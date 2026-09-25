@@ -1,13 +1,13 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="blackDiamond" format="2">
   <advance width="1200" />
   <unicode hex="25C6" />
   <outline>
     <contour>
-      <point x="-266.21" y="607.33" type="line" />
-      <point x="582.33" y="-241.21" type="line" />
-      <point x="1466.21" y="642.67" type="line" />
-      <point x="617.67" y="1491.21" type="line" />
+      <point x="-31.46709" y="625.0" type="line" />
+      <point x="600.0" y="-6.467089999999999" type="line" />
+      <point x="1231.46709" y="625.0" type="line" />
+      <point x="600.0" y="1256.46709" type="line" />
     </contour>
   </outline>
 </glyph>

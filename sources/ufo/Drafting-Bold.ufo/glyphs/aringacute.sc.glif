@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="aringacute.sc" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="299.0" y="-20.0" type="line"/>
+      <point x="640.0" y="850.0" type="line"/>
+      <point x="590.0" y="850.0" type="line"/>
+      <point x="901.0" y="-20.0" type="line"/>
+      <point x="1183.0" y="-20.0" type="line"/>
+      <point x="770.0" y="1020.0" type="line"/>
+      <point x="470.0" y="1020.0" type="line"/>
+      <point x="17.0" y="-20.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="319.0" y="400.0" type="line"/>
+      <point x="319.0" y="170.0" type="line"/>
+      <point x="882.0" y="170.0" type="line"/>
+      <point x="882.0" y="400.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="413.01785700000005" y="1147.75" type="curve" smooth="yes"/>
+      <point x="413.01785700000005" y="1027.75"/>
+      <point x="513.017857" y="947.75"/>
+      <point x="617.017857" y="947.75" type="curve" smooth="yes"/>
+      <point x="721.017857" y="947.75"/>
+      <point x="821.017857" y="1027.75"/>
+      <point x="821.017857" y="1147.75" type="curve" smooth="yes"/>
+      <point x="821.017857" y="1267.75"/>
+      <point x="721.017857" y="1347.75"/>
+      <point x="617.017857" y="1347.75" type="curve" smooth="yes"/>
+      <point x="513.017857" y="1347.75"/>
+      <point x="413.01785700000005" y="1267.75"/>
+    </contour>
+    <contour>
+      <point x="564.9011280584112" y="1147.75" type="curve" smooth="yes"/>
+      <point x="564.9011280584112" y="1183.413765785734"/>
+      <point x="589.9998526168683" y="1204.0281692922395"/>
+      <point x="617.017857" y="1204.0281692922395" type="curve" smooth="yes"/>
+      <point x="644.0358613831319" y="1204.0281692922395"/>
+      <point x="669.1345859415889" y="1183.413765785734"/>
+      <point x="669.1345859415889" y="1147.75" type="curve" smooth="yes"/>
+      <point x="669.1345859415889" y="1112.0862342142657"/>
+      <point x="644.0358613831319" y="1091.4718307077603"/>
+      <point x="617.017857" y="1091.4718307077603" type="curve" smooth="yes"/>
+      <point x="589.9998526168683" y="1091.4718307077603"/>
+      <point x="564.9011280584112" y="1112.0862342142657"/>
+    </contour>
+    <component base="acutecomb" xOffset="1269.696429" yOffset="378.8928571"/>
+  </outline>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="downTipRightArrow" format="2">
+  <outline>
+    <contour>
+      <point x="-86.99999999999949" y="411.999999999999" type="line"/>
+      <point x="721.0000000000002" y="411.9999999999999" type="line"/>
+      <point x="1123.2941207885744" y="422.2941207885741" type="line"/>
+      <point x="704.7071067811867" y="11.999999999999545" type="line"/>
+      <point x="735.0000000000005" y="-8.000000000000568" type="line"/>
+      <point x="1171.0" y="427.0" type="line"/>
+      <point x="734.9999999999998" y="861.9999999999993" type="line"/>
+      <point x="704.7071067811864" y="831.9999999999995" type="line"/>
+      <point x="1121.1633987426756" y="433.8366012573239" type="line"/>
+      <point x="721.0000000000002" y="443.99999999999955" type="line"/>
+      <point x="-87.0" y="443.999999999999" type="line"/>
+    </contour>
+  </outline>
+</glyph>

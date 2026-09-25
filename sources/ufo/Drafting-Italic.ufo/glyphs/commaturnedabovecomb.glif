@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="commaturnedabovecomb" format="2">
-  <advance width="1200"/>
-  <unicode hex="0312"/>
+  <advance width="0" />
+  <unicode hex="0312" />
   <outline>
     <contour>
-      <point x="-458.0" y="1264.0" type="line"/>
-      <point x="-569.0" y="806.0" type="line"/>
-      <point x="-727.0" y="806.0" type="line"/>
-      <point x="-548.0" y="1264.0" type="line"/>
+      <point x="-458.0" y="1264.0" type="line" />
+      <point x="-548.0" y="1264.0" type="line" />
+      <point x="-727.0" y="806.0" type="line" />
+      <point x="-569.0" y="806.0" type="line" />
     </contour>
   </outline>
 </glyph>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="waveArrowDirectlyRight" format="2">
+  <advance width="1200"/>
+  <unicode hex="2933"/>
+  <outline>
+    <contour>
+      <point x="-20" y="479" type="curve"/>
+      <point x="210" y="479" type="line"/>
+      <point x="210" y="577"/>
+      <point x="219" y="647"/>
+      <point x="266.6388391969696" y="647.0" type="curve" smooth="yes"/>
+      <point x="340" y="647"/>
+      <point x="326" y="481"/>
+      <point x="525.9324376847883" y="482.8342425475669" type="curve" smooth="yes"/>
+      <point x="653" y="484"/>
+      <point x="653.0" y="551.0"/>
+      <point x="798.0" y="602.0" type="curve"/>
+      <point x="798" y="602" type="line"/>
+      <point x="594" y="373" type="line"/>
+      <point x="763" y="183" type="line"/>
+      <point x="1229" y="707" type="line"/>
+      <point x="763" y="1231" type="line"/>
+      <point x="594" y="1041" type="line"/>
+      <point x="791" y="819" type="line"/>
+      <point x="628" y="800"/>
+      <point x="570" y="733"/>
+      <point x="525.9373840828216" y="733.0" type="curve" smooth="yes"/>
+      <point x="457" y="733"/>
+      <point x="451" y="897"/>
+      <point x="282.5808366022002" y="897.0" type="curve" smooth="yes"/>
+      <point x="92" y="897"/>
+      <point x="-20" y="687"/>
+    </contour>
+  </outline>
+</glyph>

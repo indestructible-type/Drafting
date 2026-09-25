@@ -3,6 +3,17 @@
   <advance width="1200"/>
   <unicode hex="00B9"/>
   <outline>
-    <component base="imod"/>
+    <contour>
+      <point x="207.0" y="610.0" type="line"/>
+      <point x="1003.0" y="610.0" type="line"/>
+      <point x="1003.0" y="820.0" type="line"/>
+      <point x="735.0" y="820.0" type="line"/>
+      <point x="735.0" y="1300.0" type="line"/>
+      <point x="283.0" y="1300.0" type="line"/>
+      <point x="283.0" y="1100.0" type="line"/>
+      <point x="512.0" y="1100.0" type="line"/>
+      <point x="512.0" y="820.0" type="line"/>
+      <point x="207.0" y="820.0" type="line"/>
+    </contour>
   </outline>
 </glyph>

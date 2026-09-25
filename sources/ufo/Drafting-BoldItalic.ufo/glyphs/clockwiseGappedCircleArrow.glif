@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="clockwiseGappedCircleArrow" format="2">
+  <advance width="1200"/>
+  <unicode hex="27F3"/>
+  <outline>
+    <contour>
+      <point x="600.0" y="132" type="curve" smooth="yes"/>
+      <point x="878.7590954499999" y="132.0"/>
+      <point x="1114.0646691250029" y="324.3405067765625"/>
+      <point x="1180.9571914672852" y="582.8722686767578" type="curve"/>
+      <point x="1004.2356262207031" y="625.8448638916016" type="line"/>
+      <point x="947.520955697383" y="445.6877582650219"/>
+      <point x="807" y="311.8495"/>
+      <point x="600.0" y="311.8495" type="curve" smooth="yes"/>
+      <point x="349" y="311.8495"/>
+      <point x="179.7" y="482"/>
+      <point x="179.7" y="733.0" type="curve" smooth="yes"/>
+      <point x="179.7" y="984"/>
+      <point x="349" y="1154.1505000000002"/>
+      <point x="600.0" y="1154.1505000000002" type="curve" smooth="yes"/>
+      <point x="807" y="1154.1505000000002"/>
+      <point x="946.876644621414" y="1040.838885807586"/>
+      <point x="1003.9609069824219" y="861.2156066894531" type="curve"/>
+      <point x="804.8216857910156" y="954.1375122070312" type="line"/>
+      <point x="739.1667022705078" y="817.2873001098633" type="line"/>
+      <point x="1218.9234161376953" y="603.5192184448242" type="line"/>
+      <point x="1412.884033203125" y="1023.469352722168" type="line"/>
+      <point x="1266.0338134765625" y="1089.1243362426758" type="line"/>
+      <point x="1176.8994979858398" y="897.9751739501953" type="line"/>
+      <point x="1104.9714144139964" y="1149.0076176489224"/>
+      <point x="873.3824248288338" y="1334.0"/>
+      <point x="600.0" y="1334" type="curve" smooth="yes"/>
+      <point x="269.45" y="1334"/>
+      <point x="0" y="1063.55"/>
+      <point x="0" y="733.0" type="curve" smooth="yes"/>
+      <point x="0" y="402.45"/>
+      <point x="269.45" y="132"/>
+    </contour>
+  </outline>
+</glyph>

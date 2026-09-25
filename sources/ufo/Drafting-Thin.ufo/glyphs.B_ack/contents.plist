@@ -4,36 +4,68 @@
   <dict>
     <key>A</key>
     <string>A_.glif</string>
+    <key>Aringacute</key>
+    <string>A_ringacute.glif</string>
     <key>M</key>
     <string>M_.glif</string>
     <key>W</key>
     <string>W_.glif</string>
     <key>a</key>
     <string>a.glif</string>
+    <key>aringacute.sc</key>
+    <string>aringacute.sc.glif</string>
     <key>asciitilde</key>
     <string>asciitilde.glif</string>
+    <key>blackInWhiteDiamond</key>
+    <string>blackI_nW_hiteD_iamond.glif</string>
     <key>brokenbar</key>
     <string>brokenbar.glif</string>
+    <key>downTipRightArrow</key>
+    <string>downT_ipR_ightA_rrow.glif</string>
     <key>e</key>
     <string>e.glif</string>
+    <key>gear</key>
+    <string>gear.glif</string>
     <key>grave</key>
     <string>grave.glif</string>
     <key>k</key>
     <string>k.glif</string>
+    <key>leftHalfBlackDiamond</key>
+    <string>leftH_alfB_lackD_iamond.glif</string>
     <key>n</key>
     <string>n.glif</string>
+    <key>naira</key>
+    <string>naira.glif</string>
+    <key>napostrophe.sc</key>
+    <string>napostrophe.sc.glif</string>
     <key>p</key>
     <string>p.glif</string>
     <key>percent</key>
     <string>percent.glif</string>
+    <key>peso</key>
+    <string>peso.glif</string>
+    <key>propellor</key>
+    <string>propellor.glif</string>
     <key>question</key>
     <string>question.glif</string>
     <key>r</key>
     <string>r.glif</string>
+    <key>returnsymbol</key>
+    <string>returnsymbol.glif</string>
+    <key>rightTabArrow</key>
+    <string>rightT_abA_rrow.glif</string>
+    <key>ruble</key>
+    <string>ruble.glif</string>
+    <key>rupeeIndian</key>
+    <string>rupeeI_ndian.glif</string>
     <key>s</key>
     <string>s.glif</string>
+    <key>servicemark</key>
+    <string>servicemark.glif</string>
     <key>six</key>
     <string>six.glif</string>
+    <key>thorn.sc</key>
+    <string>thorn.sc.glif</string>
     <key>yen</key>
     <string>yen.glif</string>
   </dict>

@@ -5,22 +5,22 @@
   <outline>
     <contour>
       <point x="616.0" y="-220.0" type="line"/>
-      <point x="763.0" y="610.0" type="line"/>
-      <point x="907.0" y="610.0" type="line"/>
       <point x="760.0" y="-220.0" type="line"/>
+      <point x="907.0" y="610.0" type="line"/>
+      <point x="763.0" y="610.0" type="line"/>
     </contour>
     <contour>
-      <point x="134.0" y="200.0" type="curve"/>
-      <point x="1065.0" y="200.0" type="line"/>
-      <point x="1042.0" y="70.0" type="line"/>
-      <point x="2.0" y="70.0" type="line"/>
-      <point x="-45.0" y="200.0" type="line"/>
-      <point x="308.0" y="560.0"/>
-      <point x="580.0" y="850.0"/>
-      <point x="750.0" y="1360.0" type="curve"/>
-      <point x="910.0" y="1360.0" type="line"/>
-      <point x="740.0" y="850.0"/>
+      <point x="134.0" y="200.0" type="line"/>
       <point x="487.0" y="560.0"/>
+      <point x="740.0" y="850.0"/>
+      <point x="910.0" y="1360.0" type="curve"/>
+      <point x="750.0" y="1360.0" type="line"/>
+      <point x="580.0" y="850.0"/>
+      <point x="308.0" y="560.0"/>
+      <point x="-45.0" y="200.0" type="curve"/>
+      <point x="2.0" y="70.0" type="line"/>
+      <point x="1042.0" y="70.0" type="line"/>
+      <point x="1065.0" y="200.0" type="line"/>
     </contour>
   </outline>
 </glyph>

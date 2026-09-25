@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="warningSign" format="2">
+  <advance width="1200"/>
+  <unicode hex="26A0"/>
+  <outline>
+    <contour>
+      <point x="-70" y="0" type="line"/>
+      <point x="1270" y="0" type="line"/>
+      <point x="600.0" y="1250.0" type="line"/>
+      <point x="600" y="1250" type="line"/>
+    </contour>
+    <contour>
+      <point x="746.7804360041943" y="873.8889821212604" type="line"/>
+      <point x="701.1876314963819" y="387.07978235028224" type="line"/>
+      <point x="498.8123685036179" y="387.07978235028224" type="line"/>
+      <point x="453.2195639958054" y="873.8889821212604" type="line"/>
+    </contour>
+    <contour>
+      <point x="600.0" y="326.790315185693" type="curve" smooth="yes"/>
+      <point x="672.2429795540247" y="326.790315185693"/>
+      <point x="731.146487779609" y="267.88680696010886"/>
+      <point x="731.146487779609" y="195.64382740608394" type="curve" smooth="yes"/>
+      <point x="731.146487779609" y="123.40084785205912"/>
+      <point x="672.2429795540247" y="64.49733962647508"/>
+      <point x="600.0" y="64.49733962647508" type="curve" smooth="yes"/>
+      <point x="527.7570204459755" y="64.49733962647508"/>
+      <point x="468.8535122203913" y="123.40084785205912"/>
+      <point x="468.8535122203913" y="195.64382740608394" type="curve" smooth="yes"/>
+      <point x="468.8535122203913" y="267.88680696010886"/>
+      <point x="527.7570204459755" y="326.790315185693"/>
+    </contour>
+  </outline>
+</glyph>

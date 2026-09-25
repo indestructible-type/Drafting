@@ -5,33 +5,33 @@
   <outline>
     <contour>
       <point x="629.208007812" y="891.842773438" type="line"/>
-      <point x="424.18359375" y="637.381835938" type="line"/>
-      <point x="381.861328125" y="672.649414062" type="line"/>
       <point x="615.100585938" y="903.59765625" type="line"/>
+      <point x="381.861328125" y="672.649414062" type="line"/>
+      <point x="424.18359375" y="637.381835938" type="line"/>
     </contour>
     <contour>
       <point x="792.045898438" y="1023.55371094" type="line"/>
-      <point x="1090.8828125" y="1135.28125" type="line"/>
-      <point x="1099.36132812" y="1078.21679688" type="line"/>
       <point x="794.873046875" y="1004.53320312" type="line"/>
+      <point x="1099.36132812" y="1078.21679688" type="line"/>
+      <point x="1090.8828125" y="1135.28125" type="line"/>
     </contour>
     <contour>
       <point x="597.359375" y="999.036132812" type="line"/>
-      <point x="318.854492188" y="1072.72167969" type="line"/>
-      <point x="347.458007812" y="1129.78515625" type="line"/>
       <point x="606.892578125" y="1018.05761719" type="line"/>
+      <point x="347.458007812" y="1129.78515625" type="line"/>
+      <point x="318.854492188" y="1072.72167969" type="line"/>
     </contour>
     <contour>
       <point x="749.1328125" y="906.569335938" type="line"/>
-      <point x="900.926757812" y="675.620117188" type="line"/>
-      <point x="846.166015625" y="640.353515625" type="line"/>
       <point x="730.879882812" y="894.8125" type="line"/>
+      <point x="846.166015625" y="640.353515625" type="line"/>
+      <point x="900.926757812" y="675.620117188" type="line"/>
     </contour>
     <contour>
       <point x="700.43359375" y="1080.0" type="line"/>
-      <point x="733.331054688" y="1380.0" type="line"/>
-      <point x="793.331054688" y="1380.0" type="line"/>
       <point x="720.43359375" y="1080.0" type="line"/>
+      <point x="793.331054688" y="1380.0" type="line"/>
+      <point x="733.331054688" y="1380.0" type="line"/>
     </contour>
   </outline>
 </glyph>

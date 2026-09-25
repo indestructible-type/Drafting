@@ -24,6 +24,7 @@ fonts {
   full_name: "Drafting Mono Italic"
   copyright: "Copyright 2021 The Drafting Mono Project Authors (https://github.com/indestructible-type/Drafting)"
 }
+subsets: "braille"
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"

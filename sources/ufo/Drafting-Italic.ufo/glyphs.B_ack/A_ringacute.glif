@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Aringacute" format="2">
+  <advance width="1200"/>
+  <unicode hex="01FA"/>
+  <outline>
+    <contour>
+      <point x="380.0" y="1300.0" type="line"/>
+      <point x="357.0" y="1170.0" type="line"/>
+      <point x="660.0" y="1190.0" type="line"/>
+      <point x="679.0" y="1300.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="160.0" y="-20.0" type="line"/>
+      <point x="792.0" y="1230.0" type="line"/>
+      <point x="752.0" y="1230.0" type="line"/>
+      <point x="882.0" y="-20.0" type="line"/>
+      <point x="1049.0" y="-20.0" type="line"/>
+      <point x="879.0" y="1300.0" type="line"/>
+      <point x="679.0" y="1300.0" type="line"/>
+      <point x="-17.0" y="-20.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="327.0" y="500.0" type="line"/>
+      <point x="304.0" y="370.0" type="line"/>
+      <point x="867.0" y="370.0" type="line"/>
+      <point x="890.0" y="500.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>
