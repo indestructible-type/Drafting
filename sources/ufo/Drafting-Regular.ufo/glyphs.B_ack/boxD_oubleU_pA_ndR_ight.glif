@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="boxDoubleUpAndRight" format="2">
+  <outline>
+    <contour>
+      <point x="438" y="-625" type="line"/>
+      <point x="500" y="-625" type="line"/>
+      <point x="500" y="1835" type="line"/>
+      <point x="438" y="1835" type="line"/>
+    </contour>
+    <contour>
+      <point x="700" y="-625" type="line"/>
+      <point x="762" y="-625" type="line"/>
+      <point x="762" y="1835" type="line"/>
+      <point x="700" y="1835" type="line"/>
+    </contour>
+  </outline>
+</glyph>

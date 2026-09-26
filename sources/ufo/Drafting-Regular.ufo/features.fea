@@ -336,13 +336,13 @@ lookup ss01StyleSet1inLatinlookup0 {
 
 lookup caltContextualAlternatesinLatinlookup1 {
   lookupflag 0;
-    @cc4_match_1 = [\H \J \K \M \N \T \U \V \W \X \Y \d \f ];
+    @cc4_match_1 = [\C \E \F \G \H \J \K \M \N \S \T \U \V \W \X \Y \d \f ];
     @cc4_match_2 = [\b ];
     @cc4_match_3 = [\h ];
-    @cc4_back_1 = [\H \J \K \M \N \T \U \V \W \X \Y \d \f ];
+    @cc4_back_1 = [\C \E \F \G \H \J \K \M \N \S \T \U \V \W \X \Y \d \f ];
     @cc4_back_2 = [\b ];
     @cc4_back_3 = [\h ];
-    @cc4_ahead_1 = [\H \J \K \M \N \T \U \V \W \X \Y \d \f ];
+    @cc4_ahead_1 = [\C \E \F \G \H \J \K \M \N \S \T \U \V \W \X \Y \d \f ];
     @cc4_ahead_2 = [\b ];
     @cc4_ahead_3 = [\h ];
     sub @cc4_back_1 @cc4_match_2'lookup ss01StyleSet1inLatinlookup0  ;
@@ -355,6 +355,40 @@ lookup supsTrademarkSuperiorsInLatinlookup0 {
     sub \registered by \registered.superior ;
     sub \published by \published.superior ;
 } supsTrademarkSuperiorsInLatinlookup0;
+
+# Superscript and subscript figures. The ss02 zero and one are included so
+# the features still work together with ss02.
+lookup supsFiguresSuperiorsInLatinlookup0 {
+  lookupflag 0;
+    sub \zero by \zerosuperior ;
+    sub \zero.alt by \zerosuperior ;
+    sub \one by \onesuperior ;
+    sub \one.alt by \onesuperior ;
+    sub \two by \twosuperior ;
+    sub \three by \threesuperior ;
+    sub \four by \foursuperior ;
+    sub \five by \fivesuperior ;
+    sub \six by \sixsuperior ;
+    sub \seven by \sevensuperior ;
+    sub \eight by \eightsuperior ;
+    sub \nine by \ninesuperior ;
+} supsFiguresSuperiorsInLatinlookup0;
+
+lookup subsFiguresInferiorsInLatinlookup0 {
+  lookupflag 0;
+    sub \zero by \zeroinferior ;
+    sub \zero.alt by \zeroinferior ;
+    sub \one by \oneinferior ;
+    sub \one.alt by \oneinferior ;
+    sub \two by \twoinferior ;
+    sub \three by \threeinferior ;
+    sub \four by \fourinferior ;
+    sub \five by \fiveinferior ;
+    sub \six by \sixinferior ;
+    sub \seven by \seveninferior ;
+    sub \eight by \eightinferior ;
+    sub \nine by \nineinferior ;
+} subsFiguresInferiorsInLatinlookup0;
 
 feature ccmp {
 
@@ -373,6 +407,9 @@ feature ccmp {
 } ccmp;
 
 feature ss02 {
+  featureNames {
+    name "Plain zero and flat-topped one";
+  };
 
  script DFLT;
      language dflt ;
@@ -422,6 +459,9 @@ feature c2sc {
 } c2sc;
 
 feature ss01 {
+  featureNames {
+    name "b and h without the top serif";
+  };
 
  script DFLT;
      language dflt ;
@@ -458,94 +498,31 @@ feature sups {
  script DFLT;
      language dflt ;
       lookup supsTrademarkSuperiorsInLatinlookup0;
+      lookup supsFiguresSuperiorsInLatinlookup0;
 
  script latn;
      language dflt ;
       lookup supsTrademarkSuperiorsInLatinlookup0;
+      lookup supsFiguresSuperiorsInLatinlookup0;
      language TRK ;
      language AZE ;
      language CRT ;
      language KAZ ;
      language TAT ;
 } sups;
-#Mark attachment classes (defined in GDEF, used in lookupflags)
 
-@GDEF_Simple = [\A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z \space 
-	\NULL \CR \a \b \o \l \n \i \k \j \h \m \e \p \t \c \u \r \q \s \g \x \d \f \w \y \v \z 
-	\exclam \quotedbl \quotesingle \comma \period \asterisk \b.alt \h.alt \zero \one 
-	\two \three \four \five \six \seven \eight \nine \hyphen \plus \equal \colon 
-	\semicolon \less \slash \greater \numbersign \dollar \percent \ampersand 
-	\parenleft \parenright \question \at \bracketleft \backslash \bracketright 
-	\braceleft \grave \asciicircum \underscore \bar \braceright \nbspace 
-	\asciitilde \exclamdown \cent \questiondown \sterling \currency \yen \brokenbar 
-	\section \dieresis \ordfeminine \copyright \registered \softhyphen \logicalnot 
-	\guillemotleft \ordmasculine \degree \acute \twosuperior \plusminus \threesuperior 
-	\onesuperior \cedilla \periodcentered \paragraph \mu \imod \two.superior \zerosuperior 
-	\three.superior \foursuperior \fivesuperior \sixsuperior \sevensuperior \ninesuperior \eightsuperior \zeroinferior \oneinferior 
-	\twoinferior \threeinferior \fourinferior \fiveinferior \sixinferior \seveninferior \eightinferior \nineinferior 
-	\fraction \onequarter \threequarters \onehalf \guillemotright \macron 
-	\multiply \schwa \divide \dotlessi \AE \ij \IJ \jdotless \ae \enquad \emquad 
-	\enspace \zerowidthspace \hairspace \thinspace \punctuationspace \figurespace \sixperemspace \fourperemspace \threeperemspace 
-	\emspace \bullet \ellipsis \twodotenleader \dagger \daggerdbl \Thorn 
-	\germandbls \Ugrave \Adieresis \quotedblright \quotedblbase \quotedblleft 
-	\quoteright \quotesinglbase \quotereversed \quoteleft \guilsinglleft 
-	\guilsinglright \minute \second \exclamdbl \perthousand \interrobang 
-	\onedotenleader \circumflex \caron \firsttonechinese \secondtonechinese \breve \dotaccent \ring 
-	\ogonek \tilde \hungarumlaut \fourthtonechinese \Agrave \Aacute \Acircumflex 
-	\Atilde \Aring \agrave \aacute \acircumflex \atilde \adieresis \aring \ccedilla 
-	\Ccedilla \Egrave \Eacute \Ecircumflex \Edieresis \Igrave \Iacute \Icircumflex 
-	\Idieresis \Ntilde \Ograve \Oacute \Ocircumflex \Otilde \Odieresis \Uacute 
-	\Ucircumflex \Udieresis \Yacute \egrave \eacute \ecircumflex \edieresis \igrave 
-	\iacute \icircumflex \idieresis \ntilde \ograve \oacute \ocircumflex \otilde 
-	\odieresis \ugrave \uacute \ucircumflex \udieresis \yacute \thorn \ydieresis 
-	\Amacron \amacron \Abreve \abreve \Aogonek \aogonek \Cacute \cacute \Ccircumflex 
-	\ccircumflex \Cdotaccent \cdotaccent \Ccaron \ccaron \Dcaron \dcaron \Eth \eth 
-	\Oslash \oslash \Dcroat \dcroat \Emacron \emacron \Ebreve \ebreve \Edotaccent 
-	\edotaccent \Eogonek \eogonek \Ecaron \ecaron \Gcircumflex \gcircumflex \Gbreve 
-	\gbreve \Gdotaccent \gdotaccent \Gcommaaccent \gcommaaccent \Hcircumflex \hcircumflex 
-	\Hbar \hbar \Itilde \itilde \Imacron \imacron \Ibreve \ibreve \Iogonek \iogonek \iogonek.dotless 
-	\Idotaccent \Jcircumflex \jcircumflex \Kcommaaccent \kcommaaccent \kgreenlandic \Lacute 
-	\lacute \Lcommaaccent \lcommaaccent \Lcaron \lcaron \Ldot \ldot \Lslash \lslash \Nacute 
-	\nacute \Ncommaaccent \ncommaaccent \Ncaron \ncaron \napostrophe \Eng \eng \Omacron 
-	\omacron \Obreve \obreve \Ohungarumlaut \ohungarumlaut \OE \oe \Racute \racute 
-	\Rcommaaccent \rcommaaccent \Rcaron \rcaron \Sacute \sacute \Scircumflex \scircumflex 
-	\Scedilla \scedilla \Scaron \scaron \Tcedilla \tcedilla \Tcaron \tcaron \Tbar \tbar 
-	\Utilde \utilde \Umacron \umacron \Ubreve \ubreve \Uring \uring \Uhungarumlaut 
-	\uhungarumlaut \Uogonek \uogonek \Wcircumflex \wcircumflex \Ycircumflex 
-	\ycircumflex \Ydieresis \Zacute \zacute \Zdotaccent \zdotaccent \Zcaron \zcaron 
-	\longs \florin \Rinvertedbreve \rinvertedbreve \Scommaaccent \scommaaccent \Tcommaaccent \tcommaaccent \apostrophemod \mugreek 
-	\Delta \Omega \pi \Wgrave \wgrave \Wacute \wacute \Wdieresis \wdieresis 
-	\Wdotaccent \wdotaccent \Wdotbelow \wdotbelow \Germandbls \Ygrave \ygrave \Euro \trademark 
-	\oneseventh \oneninth \onetenth \onethird \onefifth \onesixth \oneeighth \twothirds 
-	\twofifths \threefifths \fourfifths \fivesixths \threeeighths \fiveeighths \seveneighths 
-	\partialdiff \integral \bulletoperator \product \minus \summation \divisionslash \emptyset 
-	\radical \infinity \approxequal \notequal \lessequal \greaterequal \lozenge 
-	\copyright.superior \registered.superior \published.superior \hyphentwo \nonbreakinghyphen \figuredash \endash \emdash 
-	\horizontalbar \a.sc \b.sc \c.sc \d.sc \e.sc \f.sc \g.sc \h.sc \i.sc \j.sc \k.sc \l.sc 
-	\m.sc \n.sc \o.sc \p.sc \q.sc \r.sc \s.sc \t.sc \u.sc \v.sc \w.sc \x.sc \y.sc \z.sc 
-	\agrave.sc \aacute.sc \acircumflex.sc \atilde.sc \adieresis.sc \aring.sc 
-	\ae.sc \ccedilla.sc \egrave.sc \eacute.sc \ecircumflex.sc \edieresis.sc 
-	\igrave.sc \iacute.sc \icircumflex.sc \idieresis.sc \eth.sc \ntilde.sc 
-	\ograve.sc \oacute.sc \ocircumflex.sc \otilde.sc \odieresis.sc \oslash.sc 
-	\ugrave.sc \uacute.sc \ucircumflex.sc \udieresis.sc \yacute.sc \amacron.sc 
-	\abreve.sc \aogonek.sc \cacute.sc \ccircumflex.sc \cdotaccent.sc \ccaron.sc 
-	\dcaron.sc \dcroat.sc \emacron.sc \ebreve.sc \edotaccent.sc \eogonek.sc 
-	\ecaron.sc \gcircumflex.sc \gbreve.sc \gdotaccent.sc \gcommaaccent.sc 
-	\hcircumflex.sc \hbar.sc \itilde.sc \imacron.sc \ibreve.sc \iogonek.sc 
-	\idotaccent.sc \ij.sc \jcircumflex.sc \kcommaaccent.sc \lacute.sc \lcommaaccent.sc 
-	\lcaron.sc \ldot.sc \lslash.sc \nacute.sc \ncommaaccent.sc \ncaron.sc \eng.sc 
-	\omacron.sc \obreve.sc \ohungarumlaut.sc \oe.sc \racute.sc \rcommaaccent.sc 
-	\rcaron.sc \sacute.sc \scircumflex.sc \scedilla.sc \scaron.sc \tcedilla.sc 
-	\tcaron.sc \tbar.sc \utilde.sc \umacron.sc \ubreve.sc \uring.sc 
-	\uhungarumlaut.sc \uogonek.sc \wcircumflex.sc \ycircumflex.sc \ydieresis.sc 
-	\zacute.sc \zdotaccent.sc \zcaron.sc \rinvertedbreve.sc \scommaaccent.sc \tcommaaccent.sc 
-	\zero.alt \one.alt \germandbls.sc \thorn.sc \kgreenlandic.sc \napostrophe.sc \aringacute.sc \aeacute.sc \oslashacute.sc \schwa.sc \wgrave.sc \wacute.sc \wdieresis.sc \wdotaccent.sc \wdotbelow.sc \ygrave.sc \Acaron \acaron \Ucaron \ucaron \Etilde \etilde \acaron.sc \ucaron.sc \etilde.sc];
-@GDEF_Mark = [\dotbelowcomb \gravecomb \acutecomb \tildecomb \circumflexcomb 
-	\macroncomb \brevecomb \dotaccentcomb \dieresiscomb \ringcomb \hungarumlautcomb \commaaccentcomb \ogonekcomb \cedillacomb 
-	\caroncomb \breveinvertedcomb \commaturnedabovecomb ];
+feature subs {
 
-table GDEF {
-  GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;
+ script DFLT;
+     language dflt ;
+      lookup subsFiguresInferiorsInLatinlookup0;
 
-} GDEF;
-
+ script latn;
+     language dflt ;
+      lookup subsFiguresInferiorsInLatinlookup0;
+     language TRK ;
+     language AZE ;
+     language CRT ;
+     language KAZ ;
+     language TAT ;
+} subs;

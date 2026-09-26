@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="boxDoubleUpAndLeft" format="2">
+  <advance width="1200"/>
+  <unicode hex="255D"/>
+  <outline>
+    <contour>
+      <point x="762.0" y="456.0" type="line"/>
+      <point x="762.0000000000005" y="1835.0" type="line"/>
+      <point x="700.0000000000007" y="1835.0000000000002" type="line"/>
+      <point x="700.0" y="518.0000000000002" type="line"/>
+      <point x="-4.547473508864641e-13" y="518.0000000000003" type="line"/>
+      <point x="-4.547473508864641e-13" y="456.00000000000034" type="line"/>
+    </contour>
+    <contour>
+      <point x="499.9999999999998" y="718.0000000000002" type="line"/>
+      <point x="500.0000000000007" y="1835.0000000000002" type="line"/>
+      <point x="438.0000000000008" y="1835.0000000000005" type="line"/>
+      <point x="437.9999999999999" y="780.0000000000002" type="line"/>
+      <point x="0.0" y="780.0000000000007" type="line"/>
+      <point x="0.0" y="718.0000000000007" type="line"/>
+    </contour>
+  </outline>
+</glyph>

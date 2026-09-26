@@ -10,6 +10,12 @@
     <string>W_.glif</string>
     <key>asciitilde</key>
     <string>asciitilde.glif</string>
+    <key>boxDoubleUpAndLeft</key>
+    <string>boxD_oubleU_pA_ndL_eft.glif</string>
+    <key>boxDoubleUpAndRight</key>
+    <string>boxD_oubleU_pA_ndR_ight.glif</string>
+    <key>boxDoubleVerticalAndRight</key>
+    <string>boxD_oubleV_erticalA_ndR_ight.glif</string>
     <key>brokenbar</key>
     <string>brokenbar.glif</string>
     <key>e</key>

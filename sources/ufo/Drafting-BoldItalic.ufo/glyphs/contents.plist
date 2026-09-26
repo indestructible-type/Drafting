@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
+    <key>.notdef</key>
+    <string>_notdef.glif</string>
     <key>A</key>
     <string>A_.glif</string>
     <key>AE</key>
@@ -384,6 +386,8 @@
     <string>blackInWhiteDiamond.glif</string>
     <key>blackMediumDiamond</key>
     <string>blackMediumDiamond.glif</string>
+    <key>blackParallelogram</key>
+    <string>blackParallelogram.glif</string>
     <key>blackSmallDiamond</key>
     <string>blackSmallDiamond.glif</string>
     <key>blackSmallLozenge</key>
@@ -396,12 +400,64 @@
     <string>blackVerysmallSquare.glif</string>
     <key>blank-braille</key>
     <string>blank-braille.glif</string>
+    <key>boxDoubleDownAndHorizontal</key>
+    <string>boxDoubleDownAndHorizontal.glif</string>
+    <key>boxDoubleDownAndLeft</key>
+    <string>boxDoubleDownAndLeft.glif</string>
+    <key>boxDoubleDownAndRight</key>
+    <string>boxDoubleDownAndRight.glif</string>
+    <key>boxDoubleHorizontal</key>
+    <string>boxDoubleHorizontal.glif</string>
+    <key>boxDoubleUpAndHorizontal</key>
+    <string>boxDoubleUpAndHorizontal.glif</string>
+    <key>boxDoubleUpAndLeft</key>
+    <string>boxDoubleUpAndLeft.glif</string>
+    <key>boxDoubleUpAndRight</key>
+    <string>boxDoubleUpAndRight.glif</string>
+    <key>boxDoubleVertical</key>
+    <string>boxDoubleVertical.glif</string>
+    <key>boxDoubleVerticalAndHorizontal</key>
+    <string>boxDoubleVerticalAndHorizontal.glif</string>
+    <key>boxDoubleVerticalAndLeft</key>
+    <string>boxDoubleVerticalAndLeft.glif</string>
+    <key>boxDoubleVerticalAndRight</key>
+    <string>boxDoubleVerticalAndRight.glif</string>
+    <key>boxHeavyDoubleDashHorizontal</key>
+    <string>boxHeavyDoubleDashHorizontal.glif</string>
+    <key>boxHeavyDoubleDashVertical</key>
+    <string>boxHeavyDoubleDashVertical.glif</string>
+    <key>boxHeavyDownAndHorizontal</key>
+    <string>boxHeavyDownAndHorizontal.glif</string>
+    <key>boxHeavyDownAndLeft</key>
+    <string>boxHeavyDownAndLeft.glif</string>
+    <key>boxHeavyDownAndRight</key>
+    <string>boxHeavyDownAndRight.glif</string>
     <key>boxHeavyHorizontal</key>
     <string>boxHeavyHorizontal.glif</string>
+    <key>boxHeavyQuadrupleDashHorizontal</key>
+    <string>boxHeavyQuadrupleDashHorizontal.glif</string>
+    <key>boxHeavyQuadrupleDashVertical</key>
+    <string>boxHeavyQuadrupleDashVertical.glif</string>
+    <key>boxHeavyTripleDashHorizontal</key>
+    <string>boxHeavyTripleDashHorizontal.glif</string>
+    <key>boxHeavyTripleDashVertical</key>
+    <string>boxHeavyTripleDashVertical.glif</string>
     <key>boxHeavyUp</key>
     <string>boxHeavyUp.glif</string>
+    <key>boxHeavyUpAndHorizontal</key>
+    <string>boxHeavyUpAndHorizontal.glif</string>
+    <key>boxHeavyUpAndLeft</key>
+    <string>boxHeavyUpAndLeft.glif</string>
+    <key>boxHeavyUpAndRight</key>
+    <string>boxHeavyUpAndRight.glif</string>
     <key>boxHeavyVertical</key>
     <string>boxHeavyVertical.glif</string>
+    <key>boxHeavyVerticalAndHorizontal</key>
+    <string>boxHeavyVerticalAndHorizontal.glif</string>
+    <key>boxHeavyVerticalAndLeft</key>
+    <string>boxHeavyVerticalAndLeft.glif</string>
+    <key>boxHeavyVerticalAndRight</key>
+    <string>boxHeavyVerticalAndRight.glif</string>
     <key>boxLightArcDownAndLeft</key>
     <string>boxL_ightA_rcD_ownA_ndL_eft.glif</string>
     <key>boxLightArcDownAndRight</key>
@@ -410,8 +466,18 @@
     <string>boxL_ightA_rcU_pA_ndL_eft.glif</string>
     <key>boxLightArcUpAndRight</key>
     <string>boxL_ightA_rcU_pA_ndR_ight.glif</string>
+    <key>boxLightDiagonalCross</key>
+    <string>boxLightDiagonalCross.glif</string>
+    <key>boxLightDiagonalUpperLeftToLowerRight</key>
+    <string>boxLightDiagonalUpperLeftToLowerRight.glif</string>
     <key>boxLightDiagonalUpperRightToLowerLeft</key>
     <string>boxLightDiagonalUpperRightToLowerLeft.glif</string>
+    <key>boxLightDoubleDashHorizontal</key>
+    <string>boxLightDoubleDashHorizontal.glif</string>
+    <key>boxLightDoubleDashVertical</key>
+    <string>boxLightDoubleDashVertical.glif</string>
+    <key>boxLightDown</key>
+    <string>boxLightDown.glif</string>
     <key>boxLightDownAndHorizontal</key>
     <string>boxLightDownAndHorizontal.glif</string>
     <key>boxLightDownAndLeft</key>
@@ -420,6 +486,20 @@
     <string>boxL_ightD_ownA_ndR_ight.glif</string>
     <key>boxLightHorizontal</key>
     <string>boxL_ightH_orizontal.glif</string>
+    <key>boxLightLeft</key>
+    <string>boxLightLeft.glif</string>
+    <key>boxLightQuadrupleDashHorizontal</key>
+    <string>boxLightQuadrupleDashHorizontal.glif</string>
+    <key>boxLightQuadrupleDashVertical</key>
+    <string>boxLightQuadrupleDashVertical.glif</string>
+    <key>boxLightRight</key>
+    <string>boxLightRight.glif</string>
+    <key>boxLightTripleDashHorizontal</key>
+    <string>boxLightTripleDashHorizontal.glif</string>
+    <key>boxLightTripleDashVertical</key>
+    <string>boxLightTripleDashVertical.glif</string>
+    <key>boxLightUp</key>
+    <string>boxLightUp.glif</string>
     <key>boxLightUpAndHorizontal</key>
     <string>boxLightUpAndHorizontal.glif</string>
     <key>boxLightUpAndLeft</key>
@@ -1918,6 +1998,8 @@
     <string>upperH_alfB_lock.glif</string>
     <key>upperLeftAndLowerLeftAndLowerRightBlock</key>
     <string>upperLeftAndLowerLeftAndLowerRightBlock.glif</string>
+    <key>upperLeftAndLowerRightBlock</key>
+    <string>upperLeftAndLowerRightBlock.glif</string>
     <key>upperLeftAndUpperRightAndLowerLeftBlock</key>
     <string>upperLeftAndUpperRightAndLowerLeftBlock.glif</string>
     <key>upperLeftAndUpperRightAndLowerRightBlock</key>
@@ -1928,6 +2010,8 @@
     <string>upperO_neE_ighthB_lock.glif</string>
     <key>upperRightAndLowerLeftAndLowerRightBlock</key>
     <string>upperRightAndLowerLeftAndLowerRightBlock.glif</string>
+    <key>upperRightAndLowerLeftBlock</key>
+    <string>upperRightAndLowerLeftBlock.glif</string>
     <key>upperRightBlackCircle</key>
     <string>upperRightBlackCircle.glif</string>
     <key>upperRightBlock</key>
@@ -1988,6 +2072,8 @@
     <string>whiteFourPointedStar.glif</string>
     <key>whiteInBlackSquare</key>
     <string>whiteInBlackSquare.glif</string>
+    <key>whiteParallelogram</key>
+    <string>whiteParallelogram.glif</string>
     <key>whiteSmallSquare</key>
     <string>whiteSmallSquare.glif</string>
     <key>whiteSquare</key>

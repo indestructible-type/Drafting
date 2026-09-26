@@ -1,6 +1,5 @@
-[Drafting Mono](http://indestructibletype.com/Drafting)
-================
-![Drafting Picture](https://indestructibletype.com/assets/Drafting.svg)
+[![Drafting Mono](documentation/DraftingMono.svg)](https://indestructibletype.com/Drafting)
+
 Drafting Mono is an original monospaced font by indestructible type*
 
 it is inspired by typewriters. This is version 1.2
@@ -22,13 +21,22 @@ added small caps & light weights<br>
 <b>1.2</b>
 fixed smallcaps bold placement in italics; updated metadata for Google Fonts; added glyphs for terminal/CLI symbols
 
+Features
+--------
+- Serifs that make room for their neighbours (`calt`)
+- Typewriter-style 0 and 1 (`ss02`)
+- Sans serif b and h (`ss01`)
+- Small caps (`smcp`, `c2sc`)
+- Superscript numbers, ©, ® and ℗ (`sups`)
+- Subscript numbers (`subs`)
+
 Building
 --------
 Drafting Mono is built with Google Fonts' pipeline, [gftools builder](https://github.com/googlefonts/gftools). Install the required software listed in "requirements.txt", then run:
 
 ```
 cd sources
-gftools builder config.yaml
+./build.sh
 ```
 
 This builds everything into the "fonts" folder: variable fonts, static TTF and OTF, woff2 webfonts, and the Drafting Mono SC small-caps family.

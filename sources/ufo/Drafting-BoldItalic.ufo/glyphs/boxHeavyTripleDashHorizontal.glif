@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="boxHeavyTripleDashHorizontal" format="2">
+  <advance width="1200"/>
+  <unicode hex="2505"/>
+  <outline>
+    <contour>
+      <point x="0" y="556" type="line"/>
+      <point x="300" y="556" type="line"/>
+      <point x="300" y="680" type="line"/>
+      <point x="0" y="680" type="line"/>
+    </contour>
+    <contour>
+      <point x="400" y="556" type="line"/>
+      <point x="700" y="556" type="line"/>
+      <point x="700" y="680" type="line"/>
+      <point x="400" y="680" type="line"/>
+    </contour>
+    <contour>
+      <point x="800" y="556" type="line"/>
+      <point x="1100" y="556" type="line"/>
+      <point x="1100" y="680" type="line"/>
+      <point x="800" y="680" type="line"/>
+    </contour>
+  </outline>
+</glyph>

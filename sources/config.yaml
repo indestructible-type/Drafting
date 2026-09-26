@@ -1,5 +1,5 @@
 # Build the whole family with Google Fonts' pipeline:
-#   cd sources && gftools builder config.yaml
+#   cd sources && ./build.sh
 sources:
   - designspace/DraftingMono.designspace
   - designspace/DraftingMono-Italic.designspace
