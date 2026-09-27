@@ -99,9 +99,9 @@
     <key>postscriptFamilyOtherBlues</key>
     <array/>
     <key>postscriptFontName</key>
-    <string>DraftingMono-Italic</string>
+    <string>DraftingMono-ThinItalic</string>
     <key>postscriptFullName</key>
-    <string>Drafting Mono</string>
+    <string>Drafting Mono Thin Italic</string>
     <key>postscriptIsFixedPitch</key>
     <true/>
     <key>postscriptOtherBlues</key>
@@ -117,7 +117,7 @@
     <key>postscriptUnderlineThickness</key>
     <real>30.0</real>
     <key>postscriptWeightName</key>
-    <string>Regular</string>
+    <string>Thin</string>
     <key>styleName</key>
     <string>Thin Italic</string>
     <key>unitsPerEm</key>

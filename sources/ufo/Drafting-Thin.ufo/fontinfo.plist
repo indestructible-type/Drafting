@@ -99,9 +99,9 @@
     <key>postscriptFamilyOtherBlues</key>
     <array/>
     <key>postscriptFontName</key>
-    <string>DraftingMono</string>
+    <string>DraftingMono-Thin</string>
     <key>postscriptFullName</key>
-    <string>Drafting Mono</string>
+    <string>Drafting Mono Thin</string>
     <key>postscriptIsFixedPitch</key>
     <true/>
     <key>postscriptOtherBlues</key>

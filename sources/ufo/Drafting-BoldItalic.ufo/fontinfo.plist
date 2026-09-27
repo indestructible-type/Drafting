@@ -99,9 +99,9 @@
     <key>postscriptFamilyOtherBlues</key>
     <array/>
     <key>postscriptFontName</key>
-    <string>DraftingMono-Bold</string>
+    <string>DraftingMono-BoldItalic</string>
     <key>postscriptFullName</key>
-    <string>Drafting Mono</string>
+    <string>Drafting Mono Bold Italic</string>
     <key>postscriptIsFixedPitch</key>
     <true/>
     <key>postscriptOtherBlues</key>
@@ -119,7 +119,7 @@
     <key>postscriptWeightName</key>
     <string>Bold</string>
     <key>styleName</key>
-    <string>Bold</string>
+    <string>Bold Italic</string>
     <key>unitsPerEm</key>
     <integer>2000</integer>
     <key>versionMajor</key>
